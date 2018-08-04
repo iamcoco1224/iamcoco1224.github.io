@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="css/coco.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  	<!-- body code goes here -->
+  <div class="d-none d-lg-block">
+<!--  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">-->
+	  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="index.html">Food Coma</a>
+<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"> <a class="nav-link" href="#">Explore</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Search</a></li>
+      </ul>
+		<div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    My Profile
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+	<a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
+	<li role="separator" class="divider"></li>
+    <a class="dropdown-item" href="index.html">My Feeds</a>
+    <a class="dropdown-item" href="#">My Friends</a>
+    <a class="dropdown-item" href="#">My Wallet</a>
+	  <br>
+	<li role="separator" class="divider"></li>
+	<a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a>
+	<a class="dropdown-item" id="drop-set" href="#">settings</a>
+  </div>
+</div>
+	</div>
+  </nav>
+  </div>
+	  
+  <div class="d-lg-none">
+<!--	  <nav class="navbar fixed-top navbar-ham bg-light">-->
+	  <nav class="navbar fixed-top navbar-ham bg-light">
+		<a class="navbar-brand" id="logo-small" href="index.html">Food Coma</a>
+		  <!-- Collapse button -->
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+			<br>
+			<li><img src="image/Untitled-2-01.png" class="img_profile" alt=""></li>
+            <li class="nav-item active">
+                <a class="nav-link" id="nav-coco" href="page-profile.html">Coco Chan</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="nav-master" href="#">Master Chef</a>
+            </li>
+			<li role="separator" class="divider"></li>
+			<br>
+			<li class="nav-item">
+                <a class="nav-link" id="nav-pro1" href="index.html">My Feeds</a>
+            </li>
+			<br>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-pro2" href="#">My Friend</a>
+            </li>
+			<br>
+            <li class="nav-item">
+                <a class="nav-link" id="nav-pro3" href="#">My Wallets</a>
+            </li>
+			<li class="nav-item">
+                <a class="nav-link" id="nav-pro4" href="#">settings</a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+	  </nav>
+  </div>
+
+
+	  
+<hr />
+<div class="container-fluid">
+  <div class="row" id="bowl">
+    <div class="d-none d-md-block">
+	  <h1>Where you feel at home!</h1>
+		<img src="image/videoblocks-hot-soup-in-a-plate-steam-rises-above-a-white-ceramic-plate-next-to-it-lies-a-spoon_hmo7qbc-8g_thumbnail-full01.png" class="img-fluid" alt="Home image"> 
+		<img src="image/logo1-01.svg" alt="logo image" class="img-fluid-logo" id="logo"> 
+	</div> 
+   	 	<img src="image/SVG/logowithword-01.svg" class="d-md-none" id="logowithword" alt="">  
+  </div>
+</div>
+	 
+<div class="container d-lg-none">
+	<div class="row">
+		<div class="col-md-12">
+            <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search the food you miss most" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                        <div class="dropdown dropdown-lg">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                <form class="form-horizontal" role="form">
+                                  <div class="form-group">
+                                    <label for="filter">Filter by</label>
+                                    <select class="form-control">
+                                        <option value="0" selected>All Snippets</option>
+                                        <option value="1">Featured</option>
+                                        <option value="2">Most popular</option>
+                                        <option value="3">Top rated</option>
+                                        <option value="4">Most commented</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Author</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Contains the words</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                              
+                                </form>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+	</div>	  	  
+
+<div class="row"><h2>How to cure homesickness? Treat your stomache well.</h2></div>
+	  
+<section id="highlights" class="row">
+  <div class="col-xl-10 offset-xl-1">
+    <div class="row">
+      <article class="col-xl-3"><img src="image/SVG/cart_icon.svg" alt="">
+        <p>Where to buy the food you miss most?<br><br>learn more</p>
+         </article>
+      <article class="col-xl-3"><img src="image/SVG/restaurant_icon.svg" alt="">
+        <p>Where to have the real and authemtic cusine?<br><br>learn more</p>
+      </article>
+      <article class="col-xl-3"><img src="image/SVG/piggy-bank_icon.svg" alt="">
+        <p>Waste no more money on the wrong place and wrong food.<br><br>learn more</p>
+      </article>
+      <article class="col-xl-3"><img src="image/SVG/clock_icon.svg" alt="">
+        <p>Spend more time with friends and less on searching for food.<br><br>learn more</p>
+      </article>
+    </div>
+  </div>
+</section>
+<div class="col-xl-10 offset-xl-1">	  
+	<div class="row"><h4 class="sectionheader">Time to get some food...</h4></div>
+</div>
+<section id="features" class="row">
+  <div class="col-xl-10 offset-xl-1">
+    <div class="row">
+      <article class="col-xl-4" id="feed1"><img src="image/feeds photo/NL_20180608_zhongzi_01.png" alt="" class="feed-photo">
+         <a href="page-recipe.html"><a href="page-recipe.html"><h3>Radish Cake</h3></a></a>
+		 <p5>chinese | dragon festival | sticky rice | egg yolk</p5>
+		  <br>
+		 <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+         </article>
+      <article class="col-xl-4" id="feed2"><img src="image/feeds photo/IMG_1024.jpg" alt="" class="feed-photo">
+        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
+        <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
+		  <br> 
+        <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+      </article>
+      <article class="col-xl-4" id="feed3"><img src="image/feeds photo/maxresdefault 2.jpg" alt="" class="feed-photo">
+        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
+        <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
+		  <br>
+        <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+      </article>
+      <article class="col-xl-4" id="feed4"><img src="image/feeds photo/20170601203251_62.jpg" alt="" class="feed-photo">
+        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
+        <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
+		  <br>
+        <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+      </article>
+      <article class="col-xl-4" id="feed5"><img src="image/feeds photo/maxresdefault.jpg" alt="" class="feed-photo">
+        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
+        <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
+		  <br>
+        <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+      </article>
+      <article class="col-xl-4" id="feed6"><img src="image/feeds photo/1472636880.jpg" alt="" class="feed-photo">
+        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
+        <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
+		  <br>
+        <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+      </article>      
+    </div>
+  </div>
+</section>
+	  <br>
+	  <br>
+	  <br>
+<div class="col-xl-10 offset-xl-1">	  
+	<div class="row"><h4 class="sectionheader">Celebrate the festivals..</h4></div>
+</div>
+	  <section id="festivals" class="row">
+		  <div class="col-xl-10 offset-xl-1">
+			  <div class="row">
+				  <article class="col-xl-4" id="festivals1"><img src="image/feeds photo/20170619004290.jpg" alt="" class="feed-photo">
+				  </article>
+				  <article class="col-xl-8" id="festivals1-1">
+					  	<h3>Celebrate Chinese Valentine's Day by Having Some Fortune-Teller Dumplings!</h3>
+        				<br>
+					  	<p1>
+							"This is beyond delicious!" -- Coco Chan
+					  	</p1>
+					    <br>
+       					<span2>chinese | dragon festival | sticky rice | egg yolk</span2>
+				  </article>
+				  <article class="col-xl-4" id="festivals2"><img src="image/feeds photo/5-kabobs-healthy-bbq.jpg" alt="" class="feed-photo">
+				  </article>
+				  <article class="col-xl-8" id="festivals1-2">
+					  	<h3>Celebrate The Moon Festivals With A Lots Of Taiwanese BBQs!</h3>
+        				<br>
+					  	<p1>
+							"The real Taiwanese BBQ sauce!" -- Coco Chan
+					  	</p1>
+					    <br>
+       					<span2>chinese | dragon festival | sticky rice | egg yolk</span2>
+				  </article>
+	  		  </div>
+		  </div>
+	  </section>
+<!-- Footer -->
+<footer class="page-footer d-none d-lg-block">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+		<button type="button" class="btn btn-fb"><i class="fa fa-facebook"></i></button>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+<!-- Footer -->
+<footer class="page-footer d-lg-none" id="page-footer-sm">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+					 
+					 
+<script src="js/jquery-3.2.1.min.js"></script> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>

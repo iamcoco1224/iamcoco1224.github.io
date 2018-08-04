@@ -186,6 +186,12 @@ span {
 
 /*media queries goes here		*/
 @media (max-width: 543.98px){
+#list-note, #list-note1, #list-note2, #list-note3, #list-note4, #list-note5 {
+		top:55%
+	}
+small{
+		font-size:50%
+	}
 h1 {
 	font-size: 1.3rem; /*1rem = 16px*/
 	width: 100%;
@@ -193,7 +199,7 @@ h1 {
 	top: 200px;
 	} 
 h2 {
-	font-size: 1.1rem; /*1rem = 16px*/
+	font-size: 1rem; /*1rem = 16px*/
 	position: relative;
 	top: 600px;
 	width: 100%;
@@ -569,7 +575,7 @@ img[src$="icon.svg"] {
 	width: 100%;
 	height: 200px;
 	text-align: center;
-	top: 200px;
+	top: 300px;
 	}
 
 hr { width:100%; height:8px; position: fixed; top:45px; background: #EECC5A;}

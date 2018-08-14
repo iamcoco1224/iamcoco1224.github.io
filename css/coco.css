@@ -181,7 +181,7 @@ span {
 	}
 
 small{
-		font-size:50%
+		font-size:50%;
 	}
 h1 {
 	font-size: 1.5rem; /*1rem = 16px*/
@@ -574,8 +574,11 @@ hr { width:100%; height:8px; background: #EECC5A;}
 }
 .feed-photo3 {
 	width: 100%;
-	display: block;
+/*	display: block;*/
 	opacity: 0.7;
+	height: 100%; 
+	max-height: 200px;
+	padding-bottom: 20px;
 }
 .profile-photo1 {
 	width: 100%;
@@ -873,7 +876,7 @@ input[type=radio] {
 
 .gallery-block{
   padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 10%;
 }
 
 .gallery-block .heading{
@@ -987,4 +990,16 @@ input[type=radio] {
 #milk:focus, #milk4:focus, #milk5:focus, #milk6:focus, #milk7:focus, #milk8:focus, #milk9:focus, #milk10:focus, #milk11:focus {
     outline: 3px solid #D4772A;
 	opacity: 1;
+}
+
+#editbtn1, #editbtn2, #editbtn3 {
+	background-color: #FFF;
+}
+#editbtn1:hover, #editbtn2:hover, #editbtn3:hover {
+	background-color: #FDE3A5;
+}
+
+.card-img-top {
+	height: 100%;
+	max-height: 300;
 }

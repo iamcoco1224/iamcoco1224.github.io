@@ -126,9 +126,9 @@
 		<article class="col-xl-8 col-md-8 col-sm-8 col-8" id="my-profile2">
 		<div class="col-xl-10 offset-xl-1 text-left" style="padding-top: 5%;">
 			 <p5>Hello! I am originally from Taiwan and am now living in Atlanta.<br> Spicy food is my favorite! <br>If you are looking for some hot recipes..<br> Follow me!</p5></div>
-		 <div class="col-xl-10 offset-xl-1" id="edit">
+	
 			
-		  <div class="col-xl-12" style="margin-top:20px">
+		  <div class="col-xl-10 offset-xl-1" style="margin-top:20px" id="edit">
 		    <div class="row" style="text-align: center">
 					<div class="col-4 col-sm-4 col-md-4 col-xl-4" >
 					<small>recipes</small>
@@ -153,7 +153,7 @@
 	          </div>
 	        </div>
 			  </div> <a href="page-editprofile.html" class="btn btn-warning btn-sm btn-block" style="margin-top:20px" role="button">edit</a>
-			</div>
+			
 			
 				
 		</article>
@@ -162,19 +162,19 @@
 </section>
 	  
 	  
-<div class="col-xl-10 text-right offset-xl-1">
-		<button class="btn btn-warning" type="submit"><i class="material-icons">add</i></button>	
-		<button class="btn btn-warning" type="submit"><i class="material-icons" data-toggle="modal" data-target="#myModal">share</i></button>
-		<button class="btn btn-warning" type="submit"><i class="material-icons">delete_outline</i></button>	
+<div class="col-xl-10 text-right offset-xl-1" style="margin-top: 10%;">
+		<button id="editbtn1" class="btn btn-warning" type="submit"><i class="material-icons">add</i></button>	
+		<button id="editbtn2" class="btn btn-warning" type="submit"><i class="material-icons" data-toggle="modal" data-target="#myModal">share</i></button>
+		<button id="editbtn3" class="btn btn-warning" type="submit"><i class="material-icons">delete_outline</i></button>	
 </div>		
 	  
 <section class="col-xl-10 offset-xl-1">
   <div id="accordion">
-  <div class="card">
+  <div class="card" style="background-color:#FFFFFF">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          <img src="image/brand/walmart-logo-6.png" style="max-height: 100px" alt="">
+          <img class="img-fluid" src="image/brand/walmart-logo-6.png" style="max-height: 100px; height: 100%" alt="">
         </button>
       </h5>
     </div>
@@ -183,7 +183,7 @@
       <div class="card-body">
 		 <div class="card-group">
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap" height="900">
+    <img  class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap" height="900">
     <div class="card-body">
       <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -194,7 +194,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap">
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -205,7 +205,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap" >
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -222,7 +222,7 @@
     <div class="card-header" id="headingTwo">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <img src="image/brand/2000px-Stop_&_Shop_Logo.png" style="max-height: 100px" alt="">
+          <img class="img-fluid" src="image/brand/2000px-Stop_&_Shop_Logo.png" style="max-height: 100px; height: 100%" alt="">
         </button>
       </h5>
     </div>
@@ -230,7 +230,7 @@
       <div class="card-body">
         <div class="card-group">
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap" >
     <div class="card-body">
       <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -241,7 +241,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap" >
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -252,7 +252,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap" >
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -271,7 +271,7 @@
     <div class="card-header" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <img src="image/brand/walgreens-logo-png-transparent.png" style="max-height: 100px" alt="">
+          <img class="img-fluid" src="image/brand/walgreens-logo-png-transparent.png" style="max-height: 100px; height: 100%" alt="">
         </button>
       </h5>
     </div>
@@ -279,7 +279,7 @@
       <div class="card-body">
         <div class="card-group">
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap" >
     <div class="card-body">
       <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -290,7 +290,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap" >
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -301,7 +301,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap" >
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -319,7 +319,7 @@
     <div class="card-header" id="headingFour">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          <img src="image/brand/H-Mart_PNG_FILE.png" style="max-height: 100px" alt="">
+          <img class="img-fluid" src="image/brand/H-Mart_PNG_FILE.png" style="max-height: 100px; height: 100%" alt="">
         </button>
       </h5>
     </div>
@@ -327,7 +327,7 @@
       <div class="card-body">
         <div class="card-group">
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap" width="430" height="300">
+    <img class="card-img-top img-fluid" src="image/coupon/900.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -338,7 +338,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/coupon/honey-nut-cheerios.png" alt="Card image cap">
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>
@@ -349,7 +349,7 @@
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap" height="300">
+    <img class="card-img-top img-fluid" src="image/food/4ab41334-cdc1-47c3-aebb-db5b497e747c_1.ee188d7cab7d95a83afbafe9ee71cee6.jpg" alt="Card image cap">
     <div class="card-body">
        <h4 style="color: red" class="card-title">Save $1.00</h4>
       <p2 class="card-text">when you BUY ONE (1) Minute Maid® Refreshment or Minute Maid® Light 52 fl oz bottle, any variety.</p2><br>

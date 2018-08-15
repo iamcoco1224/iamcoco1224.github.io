@@ -1,108 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
-    <!-- Bootstrap -->
-	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
-	<link href="css/coco.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-  	<!-- body code goes here -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+<link href="css/coco.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- body code goes here --> 
+<!--xl view nav bar-->
 <div class="d-none d-lg-block">
-<!--  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">-->
-	  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav">
-	<a class="navbar-brand" id="large_nav_brand" href="index.html">Food Coma</a>
-<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav"> <a class="navbar-brand" id="large_nav_brand" href="index.html">Food Coma</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"> <a class="nav-link" href="index.html#how">How it works</a></li>
-		  <li class="nav-item"> <a class="nav-link" href="index.html#explore">Explore</a></li>
-          
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="index.html#how">How it works</a></li>
+        <li class="nav-item"> <a class="nav-link" href="index.html#explore">Explore</a></li>
       </ul>
-		<div class="dropdown show">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    My Profile
-  </a>
-
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-	<a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
-	<li role="separator" class="divider"></li>
-    <a class="dropdown-item" href="index.html">My Feeds</a>
-    <a class="dropdown-item" href="#">My Friends</a>
-    <a class="dropdown-item" href="#">My Wallet</a>
-	  <br>
-	<li role="separator" class="divider"></li>
-	<a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a>
-	<a class="dropdown-item" id="drop-set" href="#">settings</a>
-  </div>
-</div>
-	</div>
+      <div class="dropdown show"> <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> My Profile </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" href="index.html">My Feeds</a> <a class="dropdown-item" href="#">My Friends</a> <a class="dropdown-item" href="#">My Wallet</a> <br>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a> <a class="dropdown-item" id="drop-set" href="#">settings</a> </div>
+      </div>
+    </div>
   </nav>
-  </div>
-	  
-	 
-	  
-<div class="row fixed-top d-lg-none" id="sectionheader2">
-	  <a href="page-profile.html">cancel</a>
-	  <h4>edit profile</h4>
-	  <a href="page-profile.html">done</a>
-	
 </div>
+<!--small view nav bar	-->
+<div class="row fixed-top d-lg-none" id="sectionheader2"> <a href="page-profile.html">cancel</a>
+  <h4>edit profile</h4>
+  <a href="page-profile.html">done</a> </div>
+<!--form start	-->
+<div class="col-xl-10 offset-xl-1">
+  <section id="edit-profile" class="card" style="border:none;">
+    <article class="card-body text-center"> <img style="margin-top:5%; max-width:200px " src="image/Untitled-2-01.png" alt=""><br>
+      <button type="button" class="btn btn-warning btn-sm" style="margin-top: 10px">change your look</button>
+    </article>
+    <section class="card-text" style="margin-top: 50px;">
+      <article class="col-xl-4 col-md-4 col-sm-4 col-4" style="float: left">
+        <label for="edit-name" style="margin-top: 4%">User name</label>
+        <br>
+        <label for="hometown" style="margin-top: 4%">Hometown</label>
+        <br>
+        <label for="location" style="margin-top: 4%">Location</label>
+        <br>
+        <label for="bio" style="margin-top: 4%">Bio</label>
+        <br>
+      </article>
+      <article class="col-xl-8 col-md-8 col-sm-8 col-8" style="float: right; margin-bottom: 5%">
+        <input type="name" class="form-control" id="textinput" placeholder="user name" style="margin-top: 15px;">
+        <select class="form-control" id="hometown" placeholder="where are you from" style="margin-top: 10px;">
+          <option>where are you from?</option>
+          <option>Afghanistan</option>
+          <option>Albania</option>
+          <option>Algeria</option>
+          <option>Andorra</option>
+        </select>
+        <select class="form-control" id="location" placeholder="where do you live?" style="margin-top: 10px;">
+          <option>where do you live?</option>
+          <option>Afghanistan</option>
+          <option>Albania</option>
+          <option>Algeria</option>
+          <option>Andorra</option>
+        </select>
+        <textarea class="form-control" rows="5" id="bio" placeholder="max 50 words" style="margin-top: 10px;"></textarea>
+      </article>
+      <a href="page-q1.html">
+      <button type="button" class="btn btn-warning btn-sm btn-block">edit your feeds preference</button>
+      </a> <a href="page-profile.html">
+      <button type="button" class="btn btn-warning btn-sm d-none d-lg-block" style="float: right; margin-top: 50px; background-color: #D4772A; color: #FFFFFF; margin-bottom: 60px;">Done</button>
+      </a> </section>
+  </section>
+</div>
+<!--end body--> 
 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
 
-	<div class="col-xl-10 offset-xl-1">
-		<section id="edit-profile" class="card" style="border:none;">
-			<article class="card-body text-center">
-				  <img style="margin-top:5%; max-width:200px " src="image/Untitled-2-01.png" alt=""><br>
-				  <button type="button" class="btn btn-warning btn-sm" style="margin-top: 10px">change your look</button></article>
-			
-			
-			<section class="card-text" style="margin-top: 50px;">
-				  <article class="col-xl-4 col-md-4 col-sm-4 col-4" style="float: left">
-						  		<label for="edit-name" style="margin-top: 4%">User name</label><br>
-								<label for="hometown" style="margin-top: 4%">Hometown</label><br>
-								<label for="location" style="margin-top: 4%">Location</label><br>
-								<label for="bio" style="margin-top: 4%">Bio</label><br>
-					</article>
- 					<article class="col-xl-8 col-md-8 col-sm-8 col-8" style="float: right; margin-bottom: 5%">
-								<input type="name" class="form-control" id="textinput" placeholder="user name" style="margin-top: 15px;">
-								<select class="form-control" id="hometown" placeholder="where are you from" style="margin-top: 10px;">
-									<option>where are you from?</option>
-									<option>Afghanistan</option>
-									<option>Albania</option>
-									<option>Algeria</option>
-									<option>Andorra</option>
-								 </select>
-								<select class="form-control" id="location" placeholder="where do you live?" style="margin-top: 10px;">
-									<option>where do you live?</option>
-									<option>Afghanistan</option>
-									<option>Albania</option>
-									<option>Algeria</option>
-									<option>Andorra</option>
-								 </select>
-								<textarea class="form-control" rows="5" id="bio" placeholder="max 50 words" style="margin-top: 10px;"></textarea>
-						</article>
-								<a href="page-q1.html"><button type="button" class="btn btn-warning btn-sm btn-block">edit your feeds preference</button></a>
-								<a href="page-profile.html"><button type="button" class="btn btn-warning btn-sm d-none d-lg-block" style="float: right; margin-top: 50px; background-color: #D4772A; color: #FFFFFF; margin-bottom: 60px;">Done</button></a>
-								
-					</section>
-							
-	  </section>
-	  </div>
-	 
-	  
-
-	  
-	  
-	  
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.2.1.min.js"></script>
-
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap-4.0.0.js"></script>
-  </body>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
 </html>

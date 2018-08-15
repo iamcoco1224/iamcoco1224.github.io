@@ -1,112 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>page-login</title>
-    <!-- Bootstrap -->
-	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
-	<link href="css/coco.css" rel="stylesheet" type="text/css">
-	  
-	 
- 
-  </head>
-  
-	
-  <body>
-  	<!-- body code goes here -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>page-login</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+<link href="css/coco.css" rel="stylesheet" type="text/css">
+</head>
 
-  <div class="d-none d-lg-block">
-<!--  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">-->
-	  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav">
-	<a class="navbar-brand" href="index.html">Food Coma</a>
-<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>-->
+<body>
+<!-- body code goes here --> 
+<!--xl view nav bar-->
+<div class="d-none d-lg-block">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav"> <a class="navbar-brand" href="index.html">Food Coma</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"> <a class="nav-link" href="index.html#how">How it works</a></li>
-          <li class="nav-item"> <a class="nav-link" href="index.html#explore">Explore</a></li>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="index.html#how">How it works</a></li>
+        <li class="nav-item"> <a class="nav-link" href="index.html#explore">Explore</a></li>
       </ul>
-		<div class="dropdown show">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    My Profile
-  </a>
-
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-	<a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
-	<li role="separator" class="divider"></li>
-    <a class="dropdown-item" href="index.html">My Feeds</a>
-    <a class="dropdown-item" href="#">My Friends</a>
-    <a class="dropdown-item" href="#">My Wallet</a>
-	  <br>
-	<li role="separator" class="divider"></li>
-	<a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a>
-	<a class="dropdown-item" id="drop-set" href="#">settings</a>
-  </div>
-</div>
-	</div>
+      <div class="dropdown show"> <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Profile</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" href="index.html">My Feeds</a> <a class="dropdown-item" href="#">My Friends</a> <a class="dropdown-item" href="#">My Wallet</a> <br>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a> <a class="dropdown-item" id="drop-set" href="#">settings</a> </div>
+      </div>
+    </div>
   </nav>
-  </div>
-	  
-  
-	  
-<div class="row fixed-top d-lg-none" id="sectionheader2">
-	  <a href="index.html">cancel</a>
-<!--	<h5>cancel</h5>-->
-	  <h4>log in</h4>
-	
 </div>
-	  
+<!--small view nav bar	-->
+<div class="row fixed-top d-lg-none" id="sectionheader2"> <a href="index.html">cancel</a>
+  <h4>log in</h4>
+</div>
+<div class="row" style="margin-top: 100px;">
+  <h1><strong>Welcome Home!</strong></h1>
+</div>
+<!-- Start form -->
+<section class="card" style="border: none;">
+  <div class="card-body col-xs-4 col-sm-12 col-md-12 col-lg-8">
+    <form>
+      <div class="form-group"> 
+        <!--                        <label for="exampleInputEmail1">Email address</label>-->
+        <input type="email" class="form-control" id="textinput" aria-describedby="emailHelp" placeholder="Email">
+      </div>
+      <div class="form-group"> 
+        <!--                        <label for="exampleInputPassword1">Password</label>-->
+        <input type="password" class="form-control" name="password" id="passwordinput" placeholder="Password">
+      </div>
+      <div class="row"><span>forgot password?</span></div>
+      <div class="form-group">
+        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Login</button>
+        <button id="singlebutton2" name="singlebutton" class="btn btn-primary">sign up</button>
+      </div>
+      <div class="or-seperator">
+        <p><small>or</small></p>
+      </div>
+      <button class="loginBtn loginBtn--facebook"> Sign in with Facebook </button>
+    </form>
+  </div>
+</section>
 
+<!-- End form --> 
+<!--end body--> 
 
-	<div class="row" style="margin-top: 100px;">
-	  <h1><strong>Welcome Home! </strong></h1>
-	</div>
-<!--		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">-->
-	<section class="card" style="border: none;">	
-	  <div class="card-body col-xs-4 col-sm-12 col-md-12 col-lg-8">
-			<!-- Start form -->
-                    <form>
-                      <div class="form-group">
-<!--                        <label for="exampleInputEmail1">Email address</label>-->
-                        <input type="email" class="form-control" id="textinput" aria-describedby="emailHelp" placeholder="Email">
-                      </div>
-                      <div class="form-group">
-<!--                        <label for="exampleInputPassword1">Password</label>-->
-                        <input type="password" class="form-control" name="password" id="passwordinput" placeholder="Password">
-                      </div>
-                     
-						<div class="row"><span>forgot password?</span></div>
-						
-					  <div class="form-group">
-<!--						  <div class="col-md-4">-->
-							<button id="singlebutton" name="singlebutton" class="btn btn-primary">Login</button>
-<!--						  </div>-->
-<!--						  <div class="col-md-4">-->
-							<button id="singlebutton2" name="singlebutton" class="btn btn-primary">sign up</button>
-<!--						  </div>-->
-					  </div>
-						<div class="or-seperator"><p><small>or</small></p></div>
-<!--                      <div class="col-md-4">-->
-							<button class="loginBtn loginBtn--facebook">
-							  Sign in with Facebook
-							</button>
-<!--							</div>-->
-							
-                    </form>
-		</div>
-		</section>
-	
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
 
-			<!-- End form -->
-
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="js/jquery-3.2.1.min.js"></script>
-
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/popper.min.js"></script> 
-	<script src="js/bootstrap-4.0.0.js"></script>
-	
-  </body>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
 </html>

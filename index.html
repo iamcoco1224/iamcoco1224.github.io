@@ -1,480 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food Coma</title>
-    <!-- Bootstrap -->
-	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
-	<link href="css/coco.css" rel="stylesheet" type="text/css">
-	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	
-	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  </head>
-  <body>
-  	<!-- body code goes here -->
-  <div class="d-none d-lg-block">
-<!--  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">-->
-	  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav">
-	<a class="navbar-brand" id="large_nav_brand" href="index.html">Food Coma</a>
-<!--    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>-->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Food Coma</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+<link href="css/coco.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+<!-- body code goes here --> 
+<!--xl view nav bar-->
+<div class="d-none d-lg-block">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav"> <a class="navbar-brand" id="large_nav_brand" href="index.html">Food Coma</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item"> <a class="nav-link" href="#how">How it works</a></li>
-		  <li class="nav-item"> <a class="nav-link" href="#explore">Explore</a></li>
-          
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="#how">How it works</a></li>
+        <li class="nav-item"> <a class="nav-link" href="#explore">Explore</a></li>
       </ul>
-		<div class="dropdown show">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    My Profile
-  </a>
-
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-	<a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
-	<li role="separator" class="divider"></li>
-    <a class="dropdown-item" href="index.html">My Feeds</a>
-    <a class="dropdown-item" href="#">My Friends</a>
-    <a class="dropdown-item" href="#">My Wallet</a>
-	  <br>
-	<li role="separator" class="divider"></li>
-	<a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a>
-	<a class="dropdown-item" id="drop-set" href="#">settings</a>
-  </div>
-</div>
-	</div>
+      <div class="dropdown show"> <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> My Profile </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" href="index.html">My Feeds</a> <a class="dropdown-item" href="#">My Friends</a> <a class="dropdown-item" href="#">My Wallet</a> <br>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a> <a class="dropdown-item" id="drop-set" href="#">settings</a> </div>
+      </div>
+    </div>
   </nav>
-  </div>
-	  
-  <div class="d-lg-none">
-<!--	  <nav class="navbar fixed-top navbar-ham bg-light">-->
-	  <nav class="navbar fixed-top navbar-ham bg-light" id="small_nav">
-		<i class="material-icons" style="color: #D4772A">message</i>
-		<a class="navbar-brand text-center" id="logo-small" href="index.html">Food Coma</a>
-		 
-		  <!-- Collapse button -->
-    <!-- Collapse button -->
+</div>
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
+<!--small view nav bar	-->
+<div class="d-lg-none">
+  <nav class="navbar fixed-top navbar-ham bg-light" id="small_nav"> <i class="material-icons" style="color: #D4772A">message</i> <a class="navbar-brand text-center" id="logo-small" href="index.html">Food Coma</a> 
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
         aria-expanded="false" aria-label="Toggle navigation"><i class="material-icons" style="color: #D4772A">menu</i></button>
     <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
-
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto text-center">
-			<br>
-			<li><img src="image/Untitled-2-01.png" class="img_profile" alt=""></li>
-            <li class="nav-item active">
-                <a class="nav-link" id="nav-coco" href="page-profile.html">Coco Chan</a>
-            </li>
-			<li class="nav-item">
-				<a class="nav-link" id="nav-master" href="#"><img src="image/SVG/chef.svg" style="width: 20px; margin-right: 5px" alt="">Master Chef</a>
-            </li>
-			<li role="separator" class="divider"></li>
-			<br>
-			<li class="nav-item">
-                <a class="nav-link" id="nav-pro1" href="index.html">My Feeds</a>
-            </li>
-			<br>
-            <li class="nav-item">
-                <a class="nav-link" id="nav-pro2" href="#">My Friend</a>
-            </li>
-			<br>
-            <li class="nav-item">
-                <a class="nav-link" id="nav-pro3" href="#">My Wallets</a>
-            </li>
-			<li class="nav-item">
-                <a class="nav-link" id="nav-pro4" href="page-login.html">Log In</a>
-            </li>
-			<li class="nav-item">
-                <a class="nav-link" id="nav-pro5" href="#">settings</a>
-            </li>
-        </ul>
-        <!-- Links -->
-
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15"> 
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto text-center">
+        <br>
+        <li><img src="image/Untitled-2-01.png" class="img_profile" alt=""></li>
+        <li class="nav-item active"> <a class="nav-link" id="nav-coco" href="page-profile.html">Coco Chan</a> </li>
+        <li class="nav-item"> <a class="nav-link" id="nav-master" href="#"><img src="image/SVG/chef.svg" style="width: 20px; margin-right: 5px" alt="">Master Chef</a> </li>
+        <li role="separator" class="divider"></li>
+        <br>
+        <li class="nav-item"> <a class="nav-link" id="nav-pro1" href="index.html">My Feeds</a> </li>
+        <br>
+        <li class="nav-item"> <a class="nav-link" id="nav-pro2" href="#">My Friend</a> </li>
+        <br>
+        <li class="nav-item"> <a class="nav-link" id="nav-pro3" href="#">My Wallets</a> </li>
+        <li class="nav-item"> <a class="nav-link" id="nav-pro4" href="page-login.html">Log In</a> </li>
+        <li class="nav-item"> <a class="nav-link" id="nav-pro5" href="#">settings</a> </li>
+      </ul>
+      <!-- Links --> 
     </div>
-    <!-- Collapsible content -->
-
-	  </nav>
-  </div>
-
-
-	  
+    <!-- Collapsible content --> 
+  </nav>
+</div>
 <!--<hr>-->
 
 <div class="row" style="padding: 80px;">
-   	  <h1><b>Where you feel at home!</b></h1>
+  <h1><b>Where you feel at home!</b></h1>
 </div>
 
-<div align="center" style="position: relative; padding: 100px;">
-	 <a href="#" data-toggle="modal" data-target="#myModal"> <img src="image/SVG/logo_bowl-01.svg" id="logowithword" alt=""></a>
-		 </div>
+<!--logo img	-->
+<div align="center" style="position: relative; padding: 100px;"> <a href="#" data-toggle="modal" data-target="#myModal"> <img src="image/SVG/logo_bowl-01.svg" id="logowithword" alt=""></a> </div>
 
-
-
-
-	  
+<!--search bar	-->
 <div class="container" style="padding: 30px;">
-	<div class="row">
-		<div class="col-xl-12">
-            <div class="input-group" id="adv-search">
-                <input type="text" class="form-control" placeholder="Search the food you miss most" />
-                <div class="input-group-btn">
-                    <div class="btn-group" role="group">
-                        <div class="dropdown dropdown-lg">
-                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
-                            <div class="dropdown-menu dropdown-menu-right" role="menu">
-                                <form class="form-horizontal" role="form">
-                                  <div class="form-group">
-									<b>servings </b>
-									<div class="slidecontainer">
-  										<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-									</div>
-									  <b>prep time (min) </b>
-									<div class="slidecontainer">
-  										<input type="range" min="1" max="100" value="50" class="slider" id="myRange2">
-									</div>
-
-
-									  
-                                    <label for="filter"><b>ingredients</b></label><br>
-									  <label for="filter"><small>include</small></label>
-                                    <select class="form-control">
-                                        
-										<option value="0" selected>chicken</option>
-                                        <option value="1">beef</option>
-                                        <option value="2">fish</option>
-                                        <option value="3">lamb</option>
-                                        <option value="4">Most rated</option>
-                                    </select>
-									  <label for="filter"><small>exclude</small></label>
-                                    <select class="form-control">
-                                        
-										<option value="0" selected>chicken</option>
-                                        <option value="1">beef</option>
-                                        <option value="2">fish</option>
-                                        <option value="3">lamb</option>
-                                        <option value="4">Most rated</option>
-                                    </select>
-                                  </div>
-                 
-                                  <div class="form-group">
-                                    <label for="contain"><b>festival</b></label>
-                                    <input class="form-control" type="text" />
-                                  </div>
-								  <div class="form-group">
-                                    <label for="contain"><b>tags</b></label>
-                                    <input class="form-control" type="text" />
-                                  </div>
-                              	  <div class="form-group">
-                                    <label for="contain"><b>user</b></label>
-                                    <input class="form-control" type="text" />
-                                  </div>
-								
-                                </form>
-                            </div>
-                        </div>
-                       
+  <div class="row">
+    <div class="col-xl-12">
+      <div class="input-group" id="adv-search">
+        <input type="text" class="form-control" placeholder="Search the food you miss most" />
+        <div class="input-group-btn">
+          <div class="btn-group" role="group">
+            <div class="dropdown dropdown-lg">
+              <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+              <div class="dropdown-menu dropdown-menu-right" role="menu">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group"> <b>servings </b>
+                    <div class="slidecontainer">
+                      <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
                     </div>
-                </div>
+                    <b>prep time (min) </b>
+                    <div class="slidecontainer">
+                      <input type="range" min="1" max="100" value="50" class="slider" id="myRange2">
+                    </div>
+                    <label for="filter"><b>ingredients</b></label>
+                    <br>
+                    <label for="filter"><small>include</small></label>
+                    <select class="form-control">
+                      <option value="0" selected>chicken</option>
+                      <option value="1">beef</option>
+                      <option value="2">fish</option>
+                      <option value="3">lamb</option>
+                      <option value="4">Most rated</option>
+                    </select>
+                    <label for="filter"><small>exclude</small></label>
+                    <select class="form-control">
+                      <option value="0" selected>chicken</option>
+                      <option value="1">beef</option>
+                      <option value="2">fish</option>
+                      <option value="3">lamb</option>
+                      <option value="4">Most rated</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="contain"><b>festival</b></label>
+                    <input class="form-control" type="text" />
+                  </div>
+                  <div class="form-group">
+                    <label for="contain"><b>tags</b></label>
+                    <input class="form-control" type="text" />
+                  </div>
+                  <div class="form-group">
+                    <label for="contain"><b>user</b></label>
+                    <input class="form-control" type="text" />
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-	</div>	  	  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--how it works form	--> 
 <a name="how"></a>
-<div class="row d-none d-sm-block" style="padding-top: 80px;padding-bottom: 50px;"><h2><b>How to cure homesickness? Treat your stomache well.</b></h2></div>
-<div class="row d-block d-sm-none" style="padding-top: 80px;padding-bottom: 50px;"><h2><b>How to cure homesickness? <br>Treat your stomache well.</b></h2></div>
-	  
+<div class="row d-none d-sm-block" style="padding-top: 80px;padding-bottom: 50px;">
+  <h2><b>How to cure homesickness? Treat your stomache well.</b></h2>
+</div>
+<div class="row d-block d-sm-none" style="padding-top: 80px;padding-bottom: 50px;">
+  <h2><b>How to cure homesickness? <br>
+    Treat your stomache well.</b></h2>
+</div>
 <section id="highlights" class="row">
   <div class="col-xl-10 offset-xl-1">
     <div class="row">
       <article class="col-xl-3 text-center"><img src="image/SVG/cart_icon.svg" alt="">
         <p>Places to dine and buy the food you miss the most.</p>
-		
-         </article>
+      </article>
       <article class="col-xl-3"><img src="image/SVG/restaurant_icon.svg" alt="">
         <p>Places and events to have the real and authemtic cusine and experience.</p>
-		
       </article>
       <article class="col-xl-3"><img src="image/SVG/piggy-bank_icon.svg" alt="">
         <p>Waste no more money on the wrong place and wrong food.</p>
-		
       </article>
       <article class="col-xl-3"><img src="image/SVG/clock_icon.svg" alt="">
         <p>Spend more time with friends and less on searching for food.</p>
-		
       </article>
-		<article class="col-xl-12 text-center" style="padding-bottom: 50px;"><a href="#"><p><u>learn more</u></p></a></article>
-		<div class="row" id="explore"></div> 
+      <article class="col-xl-12 text-center" style="padding-bottom: 50px;"><a href="#">
+        <p><u>learn more</u></p>
+        </a></article>
+      <div class="row" id="explore"></div>
     </div>
   </div>
 </section>
 
-
-
-	  
+<!--features/explore form	-->
 <section class="card col-xl-10 offset-xl-1" id="features">
   <h3 class="sectionheader"><img src="image/SVG/LOGO-01.svg" style="width: 40px; margin-right: 10px;" alt="">Time to get some food...</h3>
-	<div class="card-body">
-	  
-	  
+  <div class="card-body">
     <div class="row" style="background-color:#FDE3A5;">
-      <article class="col-xl-4"><img src="image/feeds photo/NL_20180608_zhongzi_01.png" alt="" class="feed-photo">
-         <a href="page-recipe.html"><a href="page-recipe.html"><h3>Radish Cake</h3></a></a>
-		 <i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star_half</i>
-				<span1>(201)</span1><br>
-		 <p5>chinese | dragon festival | sticky rice | egg yolk</p5>
-		  <br>
-		 <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
-         </article>
-      <article class="col-xl-4"><img src="image/feeds photo/IMG_1024.jpg" alt="" class="feed-photo">
-        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
-		<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star_half</i>
-				<span1>(201)</span1><br>
-        <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
-		  <br> 
+      <article class="col-xl-4"><img src="image/feeds photo/NL_20180608_zhongzi_01.png" alt="" class="feed-photo"> <a href="page-recipe.html"><a href="page-recipe.html">
+        <h3>Radish Cake</h3>
+        </a></a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
+        <p5>chinese | dragon festival | sticky rice | egg yolk</p5>
+        <br>
         <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
       </article>
-      <article class="col-xl-4"><img src="image/feeds photo/maxresdefault 2.jpg" alt="" class="feed-photo">
-        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
-		<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star_half</i>
-				<span1>(201)</span1><br>
+      <article class="col-xl-4"><img src="image/feeds photo/IMG_1024.jpg" alt="" class="feed-photo"> <a href="page-recipe.html">
+        <h3>Rice Dumplings</h3>
+        </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
         <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
-		  <br>
+        <br>
         <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
       </article>
-	  
-		
-	
-      <article class="col-xl-4"><img src="image/feeds photo/20170601203251_62.jpg" alt="" class="feed-photo">
-        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
-		<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star_half</i>
-				<span1>(201)</span1><br>
+      <article class="col-xl-4"><img src="image/feeds photo/maxresdefault 2.jpg" alt="" class="feed-photo"> <a href="page-recipe.html">
+        <h3>Rice Dumplings</h3>
+        </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
         <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
-		  <br>
+        <br>
         <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
       </article>
-      <article class="col-xl-4"><img src="image/feeds photo/maxresdefault.jpg" alt="" class="feed-photo">
-        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
-		<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star_half</i>
-				<span1>(201)</span1><br>
+      <article class="col-xl-4"><img src="image/feeds photo/20170601203251_62.jpg" alt="" class="feed-photo"> <a href="page-recipe.html">
+        <h3>Rice Dumplings</h3>
+        </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
         <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
-		  <br>
+        <br>
         <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
       </article>
-      <article class="col-xl-4"><img src="image/feeds photo/1472636880.jpg" alt="" class="feed-photo">
-        <a href="page-recipe.html"><h3>Rice Dumplings</h3></a>
-		<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star</i>
-				<i class="material-icons" style="color: #D4772A">star_half</i>
-				<span1>(201)</span1><br>
+      <article class="col-xl-4"><img src="image/feeds photo/maxresdefault.jpg" alt="" class="feed-photo"> <a href="page-recipe.html">
+        <h3>Rice Dumplings</h3>
+        </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
         <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
-		  <br>
+        <br>
         <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
-      </article>  
+      </article>
+      <article class="col-xl-4"><img src="image/feeds photo/1472636880.jpg" alt="" class="feed-photo"> <a href="page-recipe.html">
+        <h3>Rice Dumplings</h3>
+        </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
+        <p5>chinese  |  dragon festival  |  sticky rice  |  egg yolk</p5>
+        <br>
+        <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+      </article>
     </div>
   </div>
 </section>
-	  <br>
-	  <br>
-	  <br>
-<!--
-<section class="row">
-<h3 class="sectionheader">Celebrate the festivals...</h3>
-</section>	  
--->
-	  <section class="card col-xl-10 offset-xl-1" id="festivals">
-		  <h3 class="sectionheader"><img src="image/SVG/LOGO-01.svg" style="width: 40px; margin-right: 10px;" alt="">Celebrate the festivals...</h3>
-		  <div class="card-body">	  
-			
-		  
-<!--		  <div class="col-xl-10 offset-xl-1" id="festivals">-->
-			  <div class="row" style="background-color:#FDE3A5;">
-				  <article class="col-xl-4" ><img src="image/feeds photo/20170619004290.jpg" alt="" class="feed-photo">
-				  </article>
-				  <article class="col-xl-8">
-					  	<h3>Celebrate Chinese Valentine's Day by Having Some Fortune-Teller Dumplings!</h3>
-        				<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star_half</i>
-							<span1>(201)</span1><br>
-					 	<br>
-					  
-					  	<p1>
-							"This is beyond delicious!" -- Coco Chan
-					  	</p1>
-					    <br>
-       					<span2>chinese | dragon festival | sticky rice | egg yolk</span2>
-				  </article></div>
-				  
-			  
-			  
-			  <div class="row" style="background-color:#FDE3A5; margin-top: 20px;">
-			  <article class="col-xl-4"><img src="image/feeds photo/5-kabobs-healthy-bbq.jpg" alt="" class="feed-photo">
-				  </article>
-				  <article class="col-xl-8">
-					  	<h3>Celebrate The Moon Festivals With A Lots Of Taiwanese BBQs!</h3>
-					  	<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star</i>
-							<i class="material-icons" style="color: #D4772A">star_half</i>
-							<span1>(201)</span1><br>
-        				<br>
-					  	<p1>
-							"The real Taiwanese BBQ sauce!" -- Coco Chan
-					  	</p1>
-					    <br>
-       					<span2>chinese | dragon festival | sticky rice | egg yolk</span2>
-				  </article>
-	  		  </div>
-		  </div>
-	  </section>
-	  
-<div class="row d-none d-lg-block" style="position: absolute; right: 20px;">
-	 <a href="#top" class="fas fa-arrow-circle-up" style="font-size: 60px; color: #D4772A;"></a>	  </div>
-	  
-	  <!-- Modal -->
+<br>
+<br>
+<br>
+
+<!--festival form	-->
+<section class="card col-xl-10 offset-xl-1" id="festivals">
+  <h3 class="sectionheader"><img src="image/SVG/LOGO-01.svg" style="width: 40px; margin-right: 10px;" alt="">Celebrate the festivals...</h3>
+  <div class="card-body">
+    <div class="row" style="background-color:#FDE3A5;">
+      <article class="col-xl-4" ><img src="image/feeds photo/20170619004290.jpg" alt="" class="feed-photo"> </article>
+      <article class="col-xl-8">
+        <h3>Celebrate Chinese Valentine's Day by Having Some Fortune-Teller Dumplings!</h3>
+        <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
+        <br>
+        <p1> "This is beyond delicious!" -- Coco Chan </p1>
+        <br>
+        <span2>chinese | dragon festival | sticky rice | egg yolk</span2>
+      </article>
+    </div>
+    <div class="row" style="background-color:#FDE3A5; margin-top: 20px;">
+      <article class="col-xl-4"><img src="image/feeds photo/5-kabobs-healthy-bbq.jpg" alt="" class="feed-photo"> </article>
+      <article class="col-xl-8">
+        <h3>Celebrate The Moon Festivals With A Lots Of Taiwanese BBQs!</h3>
+        <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
+        <br>
+        <p1> "The real Taiwanese BBQ sauce!" -- Coco Chan </p1>
+        <br>
+        <span2>chinese | dragon festival | sticky rice | egg yolk</span2>
+      </article>
+    </div>
+  </div>
+</section>
+<div class="row d-none d-lg-block" style="position: absolute; right: 20px;"> <a href="#top" class="fas fa-arrow-circle-up" style="font-size: 60px; color: #D4772A;"></a> </div>
+
+<!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-<!--        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+      <div class="modal-header"> 
+        <!--        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
         <h2 class="modal-title" style="font-size: 120%; text-align: center" id="myModalLabel"><b>Download Now!</b></h2>
       </div>
-      <div class="modal-body text-center">
-		<a href="#" class="fab fa-google-play" style="font-size:48px; color:dimgray; padding-right: 30px;"></a> <a href="#" class="fab fa-app-store" style="font-size:48px; color:dimgray"></a>
-	 	
-      </div>
+      <div class="modal-body text-center"> <a href="#" class="fab fa-google-play" style="font-size:48px; color:dimgray; padding-right: 30px;"></a> <a href="#" class="fab fa-app-store" style="font-size:48px; color:dimgray"></a> </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-dismiss="modal">Cancel</button>
-        
       </div>
     </div>
   </div>
 </div>
-	  
+
 <!-- Footer -->
-<footer class="page-footer d-none d-lg-block" style="color:dimgray; border-top: solid 3px #EECC5A;">
-
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left" style="color:dimgray">
-
-      <!-- Grid row -->
-      <div class="row" style="color:dimgray">
-
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3" style="color:dimgray">
-
-          <!-- Content -->
-          <p><strong>Download Our APP Now</strong><br>
-            <br>
-            <a href="#" class="fab fa-google-play" style="font-size:48px; color:dimgray"></a> <a href="#" class="fab fa-app-store" style="font-size:48px; color:dimgray"></a> </p>
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3" style="color:dimgray">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">About Us</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Brand story</a>
-              </li>
-              <li>
-                <a href="#!">News Room</a>
-              </li>
-              <li>
-                <a href="#!">Jobs</a>
-              </li>
-              <li>
-                <a href="#!">Contact Us</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3" style="color:dimgray">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">Advertising</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Advertising with us</a>
-              </li>
-              <li>
-                <a href="#!">Sponsor us</a>
-              </li>
-              <li>
-                <a href="#!">Cross Culture Organization</a>
-              </li>
-              
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-	</div></footer>
+<footer class="page-footer d-none d-lg-block" style="color:dimgray; border-top: solid 3px #EECC5A;"> 
   
-
-<!-- Footer -->
-<footer class="page-footer d-lg-none" id="page-footer-sm">
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="index.html"> FOODCOMA.com</a><br>
-	  <a href="#" class="fab fa-facebook"></a>
-	  <a href="#" class="fab fa-twitter"></a>
-	  <a href="#" class="fab fa-pinterest"></a>
-	  <a href="#" class="fab fa-instagram"></a>
-	  <a href="#" class="fab fa-google"></a>
-	  <a href="#" class="fab fa-youtube-play"></a>
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left" style="color:dimgray"> 
+    
+    <!-- Grid row -->
+    <div class="row" style="color:dimgray"> 
+      
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3" style="color:dimgray"> 
+        
+        <!-- Content -->
+        <p><strong>Download Our APP Now</strong><br>
+          <br>
+          <a href="#" class="fab fa-google-play" style="font-size:48px; color:dimgray"></a> <a href="#" class="fab fa-app-store" style="font-size:48px; color:dimgray"></a> </p>
+      </div>
+      <!-- Grid column -->
+      
+      <hr class="clearfix w-100 d-md-none pb-3">
+      
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3" style="color:dimgray"> 
+        
+        <!-- Links -->
+        <h5 class="text-uppercase">About Us</h5>
+        <ul class="list-unstyled">
+          <li> <a href="#!">Brand story</a> </li>
+          <li> <a href="#!">News Room</a> </li>
+          <li> <a href="#!">Jobs</a> </li>
+          <li> <a href="#!">Contact Us</a> </li>
+        </ul>
+      </div>
+      <!-- Grid column --> 
+      
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3" style="color:dimgray"> 
+        
+        <!-- Links -->
+        <h5 class="text-uppercase">Advertising</h5>
+        <ul class="list-unstyled">
+          <li> <a href="#!">Advertising with us</a> </li>
+          <li> <a href="#!">Sponsor us</a> </li>
+          <li> <a href="#!">Cross Culture Organization</a> </li>
+        </ul>
+      </div>
+      <!-- Grid column --> 
+      
+    </div>
+    <!-- Grid row --> 
+    
   </div>
-  <!-- Copyright -->
 </footer>
-<!-- Footer -->
-					 
-					 
-<script src="js/jquery-3.2.1.min.js"></script> 
-	<script src="js/jquery-3.2.1.min.js"></script>
 
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap-4.0.0.js"></script>
-	  <script src="food.js"></script>
-  </body>
+<!-- Footer -->
+<footer class="page-footer d-lg-none" id="page-footer-sm"> 
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright: <a href="index.html"> FOODCOMA.com</a><br>
+    <a href="#" class="fab fa-facebook"></a> <a href="#" class="fab fa-twitter"></a> <a href="#" class="fab fa-pinterest"></a> <a href="#" class="fab fa-instagram"></a> <a href="#" class="fab fa-google"></a> <a href="#" class="fab fa-youtube-play"></a> </div>
+  <!-- Copyright --> 
+</footer>
+<!-- Footer --> 
+
+<!--end body--> 
+
+<script src="js/jquery-3.2.1.min.js"></script> 
+<script src="js/jquery-3.2.1.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script> 
+<script src="food.js"></script>
+</body>
 </html>

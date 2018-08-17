@@ -5,7 +5,7 @@
 
 body {
 	padding-top: 50px;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Hind';
 }
 p {
 	margin-right: 15%;
@@ -48,18 +48,18 @@ a:active {
 	border-top: solid 3px #EECC5A;
 }
 h1, h3, h6 { 
-	font-family:ubuntu;
+	font-family: 'Ubuntu';
 }
 
 
 h4 {
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 	font-size: 100%;
 	margin: auto;
 	text-align: center;
 }
 h5 {
-	font-family: 'Hind', sans-serif;
+	font-family: 'Hind';
 	font-size: 80%;
 	position: relative;
 	top: 5px;
@@ -102,53 +102,10 @@ span {
 	width: 100%;
 	text-align: center;
 	margin: auto;
-	font-family: "Hind Medium" "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	font-family: 'Hind';
 }
 
-/*
-.nav.nav-tabs.offset-xl-1.col-xl-10.col-lg-10.offset-lg-1 .nav-item .nav-link {
-	position: relative;
-	padding: 10px;
-	font-family: ubuntu;
-}
-*/
-/*
-.nav.nav-tabs.offset-xl-1.col-xl-10.col-lg-10.offset-lg-1 .nav-item .nav-link:hover {
-	color: #FAB103;
-	
-}
-*/
-/*
-.nav.nav-tabs.offset-xl-1.col-xl-10.col-lg-10.offset-lg-1 {
-	position: relative;
-	top: 30px;
-}
-*/
-/*
-.nav.nav-tabs {
-	position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-	background-color: #FFFFFF;
-	fix if want center
-}
-*/
 
-
-/*
-.nav.nav-tabs .nav-item .nav-link {
-	font-family: ubuntu;
-}
-*/
-
-/*
-.nav.nav-tabs.offset-xl-1.col-xl-10.col-lg-10.offset-lg-1 .nav-item a img {
-	position: absolute;
-	bottom: 0px;
-	margin-left: 50px;
-}
-*/
 
 
 #list-photo, #list-photo1, #list-photo2, #list-photo3, #list-photo4 {
@@ -488,7 +445,7 @@ span2 {
 .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
 	color: #FAB103;
 	padding-left: 8%;
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 	font-size: 1.5rem;
 }
 .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 {
@@ -497,7 +454,7 @@ span2 {
 }
 .navbar-nav.mr-auto .nav-item .nav-link {
 	padding: 0px 20px;
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 	background: #f8f9fa;
 }
 /*
@@ -515,13 +472,12 @@ span2 {
 	width: 100%;
 	max-width: 100px;
 	text-align: center;
-/*	left: 43%;*/
 	top: 16px;
 }
 #dropdownMenuLink {
 	background-color: #EECC5A;
 	border-color: transparent;
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 	position: relative;
 	left: 17px;
 }
@@ -534,8 +490,7 @@ img[src$="icon.svg"] {
 
 #logo-small {
 	color: #FAB103;
-/*	padding-left: 15%;*/
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 	font-size: 1.5rem;
 }
 #bowl {
@@ -600,7 +555,7 @@ span1 {
 .navbar-ham .navbar-nav .nav-link {
 	color: rgba(0, 0, 0, 0.5);
 	text-align: center;
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 }
 
 
@@ -646,7 +601,7 @@ span1 {
 
 .dropdown-item {
 	padding: 10px;
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 }
 
 #drop-log {
@@ -693,7 +648,7 @@ span1 {
 /* Facebook */
 .loginBtn--facebook {
 	background-color: #4C69BA;
-	font-family:"Hind Medium" "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'Hind';
 	position: relative;
 	width: 100%;
 	border: none;
@@ -818,7 +773,7 @@ input[type=radio] {
     bottom: 0;
     width: 100%;
 	height: 50px;
-	font-family: ubuntu
+	font-family: 'Ubuntu';
 }
 #myNavbar1 {
 	background-color: #FFFFFF;
@@ -827,7 +782,7 @@ input[type=radio] {
     top: 120px;
     width: 100%;
 	height: 40px;
-	font-family: ubuntu;
+	font-family: 'Ubuntu';
 	border-bottom: dotted 3px #D4772A;
 }
 

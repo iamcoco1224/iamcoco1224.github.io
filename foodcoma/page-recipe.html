@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+<link href="css/coco.css" rel="stylesheet" type="text/css">
+<!--icon-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<!--google font-->
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+<!-- body code goes here --> 
+<!--xl view nav bar-->
+<div class="d-none d-lg-block">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav"> <a class="navbar-brand" id="large_nav_brand" href="foodcomahome.html">Food Coma</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="foodcomahome.html#how">How it works</a></li>
+        <li class="nav-item"> <a class="nav-link" href="foodcomahome.html#explore">Explore</a></li>
+      </ul>
+      <div class="dropdown show"> <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> My Profile </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="page-profile.html"><b>Coco Chan</b></a>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" href="foodcomahome.html">My Feeds</a> <a class="dropdown-item" href="#">My Friends</a> <a class="dropdown-item" href="#">My Wallet</a> <br>
+          <li role="separator" class="divider"></li>
+          <a class="dropdown-item" id="drop-log" href="page-login.html">Log In</a> <a class="dropdown-item" id="drop-set" href="#">settings</a> </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<!--small view nav bar	-->
+<div class="row fixed-top d-lg-none" id="sectionheader2"> <a href="foodcomahome.html"><i class="material-icons">arrow_back_ios</i></a>
+  <h4>Radish Cake</h4>
+  <a href="#"><i class="material-icons">more_vert</i></a> 
+</div>
+<section class="row" id="recipe">
+  <div class="col-xl-10 offset-xl-1" style="margin-top: 20px;">
+    <div class="card" style="background-color: #FDE3A5"> <img src="image/feeds photo/carrot-cake.jpg" class="d-lg-none" style="width: 100%; max-width: 1200px; height: 100%; max-height: 350px;" alt=""> <img src="image/feeds photo/carrot-cake-1.jpg" class="d-none d-lg-block" style="width: 100%; max-width: 1200px; height: 100%; max-height: 350px;" alt="">
+      <div class="col-xl-12"> <a href="page-recipe.html">
+        <h3>Radish Cake</h3>
+        </a> 
+        <!--review star--> 
+        <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+        <span1>(201)</span1>
+        <br>
+        <p5>4 ingredients  |  8 servings  |  60 minutes </p5>
+        <br>
+        <!--tags--> 
+        <a class="btn btn-warning btn-sm" style="margin-right: 15px; margin-top: 10px; background-color: #D4772A; color: #FFFFFF;" href="#" role="button">chinese</a> <a class="btn btn-warning btn-sm" style="margin-right: 15px; margin-top: 10px; background-color: #D4772A; color: #FFFFFF;" href="#" role="button">chinese</a> <a class="btn btn-warning btn-sm" style="margin-right: 15px; margin-top: 10px; background-color: #D4772A; color: #FFFFFF;" href="#" role="button">chinese</a> <a class="btn btn-warning btn-sm" style="margin-right: 15px; margin-top: 10px; background-color: #D4772A; color: #FFFFFF;" href="#" role="button">chinese</a> <br>
+        <span1>recipe by <a href="page-profile.html">Coco Chan</a></span1>
+      </div>
+    </div>
+    <div class="row" style="margin-bottom: 20px; margin-top: 20px;">
+      <article class="col-xl-12">
+        <div class="card" id="ingredients">
+          <div class="card-body">
+            <h3 class="card-title"><small>Ingredients</small></h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">1. Radish 1lb</li>
+              <li class="list-group-item">2. Green onion</li>
+              <li class="list-group-item">2. Rice flour 500g</li>
+              <li class="list-group-item">3. Red chilli (optional)</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--	  where to start form-->
+    <div class="row" style="margin-bottom: 20px;">
+      <article class="col-xl-12">
+        <div class="card" id="where-to-start">
+          <div class="card-body">
+            <h3 class="card-title"><small>Where to start</small></h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">1. Cut the radish into small pieces.</li>
+              <li class="list-group-item">2. Boil a liter of water and put the radigh in.</li>
+              <li class="list-group-item">2. Cook until the radish turn tender.</li>
+              <li class="list-group-item">3. Add in rice flour and gentally stir it.</li>
+              <li class="list-group-item">4. Steam the mix for about 60 mins.</li>
+            </ul>
+            <br>
+            <p2 class="card-text"><i class="material-icons" style="color: #D4772A; left: 20px; position: absolute">camera_alt</i><a href="#">see photos</a></p2>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--	  tips form-->
+    <div class="row" style="margin-bottom: 20px;">
+      <article class="col-xl-12">
+        <div class="card" id="tips">
+          <div class="card-body">
+            <h3 class="card-title"><small>Tips</small></h3>
+            <li class="list-group-item" id="tip">Pour the rice flour once a little into the radish water, and gentally stir it until its perfectly mixed. Use chopstick to check if the mix is cooked.</li>
+            <br>
+            <p2 class="card-text"><i class="material-icons" style="color: #D4772A; left: 20px; position: absolute">create</i><a href="#">add notes</a></p2>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--	  story behine it form-->
+    <div class="card" style="background-color: #FFFFFF; margin-bottom: 20px;">
+      <h3 style="margin-left: 20px;"><small>Story behind it</small></h3>
+      <img src="image/feeds photo/article-5a8140b09879b.jpg" class="d-lg-none" style="width: 100%; max-width: 1200px; height: 100%; max-height: 350px;" alt=""> <img src="image/feeds photo/2018.jpg_wh1200.jpg" class="d-none d-lg-block" style="width: 100%; max-width: 1200px; height: 100%; max-height: 350px;" alt="">
+      <div class="row" style="margin: 20px">
+        <p5>This radish cake is a muct-have in Chinese New Year. I love its simple taste. It represents that ones can reach a higher status in the new year. I like it so much since it's also my mom's favorite dish and she will make us this within the whole New Year's holidays. </p5>
+      </div>
+    </div>
+    <!--	  purchase at form-->
+    <div class="row" style="margin-bottom: 20px;">
+      <article class="col-xl-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title"><small>Purchase at</small></h3>
+            <a href="http://nj.hmart.com"><img src="image/brand/H-Mart_PNG_FILE.png" style="height: 30px; margin-right: 30px" alt=""></a> <a href="https://www.target.com"><img src="image/brand/Target-Logo.png" style="height: 30px;" alt=""></a><br>
+            <br>
+            <p2 class="card-text"><i class="material-icons" style="color: #D4772A; left: 20px; position: absolute">add</i><a href="#">add to my shopping list</a></p2>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--	  coupon and sales form-->
+    <div class="row" style="margin-bottom: 20px;">
+      <article class="col-xl-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title"><small>Coupons and Sales</small></h3>
+            <a href="https://www.target.com"><img src="image/feeds photo/Screen Shot 2018-07-22 at 16.50.29.png" style="height: 200px;" alt=""></a><br>
+            <br>
+            <p2 class="card-text"><i class="material-icons" style="color: #D4772A; left: 20px; position: absolute">add</i><a href="#">add to my shopping list</a></p2>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<hr>
+<!--comment form	-->
+<section class="row" id="comment">
+  <div class="col-xl-10 offset-xl-1" style="margin-top: 20px;">
+    <div class="row" style="margin-bottom: 20px;">
+      <article class="col-xl-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title"><small>Reviews and Comments</small></h3>
+            <div class="card-text"> <a href="#"><img src="image/Untitled-2-01.png" style="width: 80px;" alt=""></a> <a href="#">
+              <p3 style="font-size:100%; margin-left: 15px; margin-right: 15px">Coco Chan</p3>
+              </a> <i class="material-icons" style="color: #D4772A">star_outline</i> <i class="material-icons" style="color: #D4772A">star_outline</i> <i class="material-icons" style="color: #D4772A">star_outline</i> <i class="material-icons" style="color: #D4772A">star_outline</i> <i class="material-icons" style="color: #D4772A">star_outline</i></div>
+            <div class="input" style="margin-left: 10px; margin-right: 10px; color: gray; border-bottom: solid 1px #EECC5A;">
+              <placeholder><small>review it!</small><br>
+                I want to say... <br>
+              </placeholder>
+            </div>
+            <div class="card-text" style="margin-top: 30px;"> <a href="#"><img src="image/comment-head.png" style="width: 50px;" alt=""></a> <a href="#">
+              <p3 style="font-size:80%; margin-left: 15px; margin-right: 15px">Angelta Tsao</p3>
+              </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+			</div>
+            <li class="list-group-item"> I love this recipe so much, some of the recipes will have red onion and pork in it, but I like the simplicity of this one. <br>
+              <br>
+              <div class="card-text"> <a href="#" style="margin-right: 20px;"><small>coma</small></a> <a href="#"><small>comment</small></a> </div>
+            </li>
+            <div class="card-text" style="margin-top: 30px;"> <a href="#"><img src="image/comment-head.png" style="width: 50px;" alt=""></a> <a href="#">
+              <p3 style="font-size:80%; margin-left: 15px; margin-right: 15px">Angelta Tsao</p3>
+              </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+			</div>
+            <li class="list-group-item"> I love this recipe so much, some of the recipes will have red onion and pork in it, but I like the simplicity of this one. <br>
+              <br>
+              <div class="card-text"> <a href="#" style="margin-right: 20px;"><small>coma</small></a> <a href="#"><small>comment</small></a> </div>
+            </li>
+            <div class="card-text" style="margin-top: 30px;"> <a href="#"><img src="image/comment-head.png" style="width: 50px;" alt=""></a> <a href="#">
+              <p3 style="font-size:80%; margin-left: 15px; margin-right: 15px">Angelta Tsao</p3>
+              </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+			</div>
+            <li class="list-group-item"> I love this recipe so much, some of the recipes will have red onion and pork in it, but I like the simplicity of this one. <br>
+              <br>
+              <div class="card-text"> <a href="#" style="margin-right: 20px;"><small>coma</small></a> <a href="#"><small>comment</small></a> </div>
+            </li>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<hr>
+<!--	apply recipe form-->
+<section class="row" id="apply-recipe">
+  <div class="col-xl-10 offset-xl-1" style="margin-top: 20px;">
+    <div class="row" style="margin-bottom: 20px;">
+      <article class="col-xl-12">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title"><small>People who applied this recipe</small></h3>
+            <div class="card-text" style="margin-top: 30px;"> <a href="#"><img src="image/comment-head.png" style="width: 50px;" alt=""></a> 
+			  <a href="#">
+              <p3 style="font-size:80%; margin-left: 15px; margin-right: 15px">Angelta Tsao</p3>
+              </a> 
+				<i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+              <li class="list-group-item" style="background-color: #FDE3A5"> I love this recipe so much, some of the recipes will have red onion and pork in it, but I like the simplicity of this one. <br>
+                <br>
+                <div class="card-text"> <a href="#" style="margin-right: 20px;"><small>coma</small></a> <a href="#"><small>comment</small></a> </div>
+              </li>
+              <img src="image/feeds photo/0ANP0798-17life.jpg" style="width: 100%; max-width: 1200px; height: 100%; max-height: 350px;" alt=""> 
+			</div>
+            <div class="card-text" style="margin-top: 30px;"> <a href="#"><img src="image/comment-head.png" style="width: 50px;" alt=""></a> <a href="#">
+              <p3 style="font-size:80%; margin-left: 15px; margin-right: 15px">Angelta Tsao</p3>
+              </a> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star</i> <i class="material-icons" style="color: #D4772A">star_half</i>
+              <li class="list-group-item" style="background-color: #FDE3A5"> I love this recipe so much, some of the recipes will have red onion and pork in it, but I like the simplicity of this one. <br>
+                <br>
+                <div class="card-text"> <a href="#" style="margin-right: 20px;"><small>coma</small></a> <a href="#"><small>comment</small></a> </div>
+              </li>
+              <img src="image/feeds photo/0ANP0798-17life.jpg" style="width: 100%; max-width: 1200px; height: 100%; max-height: 350px;" alt=""> 
+			</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<div class="row d-none d-lg-block" style="position: absolute; right: 20px;"> <a href="#top" class="fas fa-arrow-circle-up" style="font-size: 60px; color: #D4772A;"></a> </div>
+
+<!-- Footer -->
+<footer class="page-footer d-none d-lg-block" style="color:dimgray; border-top: solid 3px #EECC5A;"> 
+  
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left" style="color:dimgray"> 
+    
+    <!-- Grid row -->
+    <div class="row" style="color:dimgray"> 
+      
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3" style="color:dimgray"> 
+        
+        <!-- Content -->
+        <p><strong>Download Our APP Now</strong><br>
+          <br>
+          <a href="#" class="fab fa-google-play" style="font-size:48px; color:dimgray"></a> <a href="#" class="fab fa-app-store" style="font-size:48px; color:dimgray"></a> </p>
+      </div>
+      <!-- Grid column -->
+      
+      <hr class="clearfix w-100 d-md-none pb-3">
+      
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3" style="color:dimgray"> 
+        
+        <!-- Links -->
+        <h5 class="text-uppercase">About Us</h5>
+        <ul class="list-unstyled">
+          <li> <a href="#!">Brand story</a> </li>
+          <li> <a href="#!">News Room</a> </li>
+          <li> <a href="#!">Jobs</a> </li>
+          <li> <a href="#!">Contact Us</a> </li>
+        </ul>
+      </div>
+      <!-- Grid column --> 
+      
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3" style="color:dimgray"> 
+        
+        <!-- Links -->
+        <h5 class="text-uppercase">Advertising</h5>
+        <ul class="list-unstyled">
+          <li> <a href="#!">Advertising with us</a> </li>
+          <li> <a href="#!">Sponsor us</a> </li>
+          <li> <a href="#!">Cross Culture Organization</a> </li>
+        </ul>
+      </div>
+      <!-- Grid column --> 
+      
+    </div>
+    <!-- Grid row --> 
+    
+  </div>
+</footer>
+
+<!-- Footer -->
+<footer class="page-footer d-lg-none" id="page-footer-sm"> 
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright: <a href="foodcomahome.html"> FOODCOMA.com</a><br>
+    <a href="#" class="fab fa-facebook"></a> <a href="#" class="fab fa-twitter"></a> <a href="#" class="fab fa-pinterest"></a> <a href="#" class="fab fa-instagram"></a> <a href="#" class="fab fa-google"></a> <a href="#" class="fab fa-youtube-play"></a> </div>
+  <!-- Copyright --> 
+</footer>
+<!-- Footer --> 
+<!--end body--> 
+	
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
+</html>

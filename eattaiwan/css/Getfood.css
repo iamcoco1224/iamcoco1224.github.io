@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+
+body {
+	padding-top: 50px;
+	font-family: 'Lato', sans-serif;
+}
+
+
+a:link {
+	color: #000000;
+}
+
+
+a:visited {
+	color: #000000;
+}
+/* mouse over link */
+a:hover {
+	color: #D4772A;
+	text-decoration: none;
+}
+/* selected link */
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+#brandname{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	color:dimgray;
+}
+
+#heroimage {
+	width: 100%;
+	opacity: 0.7;
+	position: relative;
+}
+#heroimage2, #heroimage3, #heroimage4{
+	width: 100%;
+}
+
+
+
+h1 {
+	background-color: #FFFFFF;
+    color: #000000;
+    display:inline;
+    white-space:pre-wrap;
+    line-height : 40px;
+    padding: 5px;
+    padding-right:16px;
+    box-shadow: -16px 0 0 #FFFFFF;
+	text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	
+}
+h2 {
+	text-align: center;
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+h3 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+}
+h5{
+	font-size: 1rem;
+}
+p5{
+	font-size: 0.7rem !important;
+}
+h6 {
+	text-align: center;
+	width: 100%;
+	font-size: 0.7rem;
+	color: gray;
+}
+.container{
+	position: absolute;
+	top: 50%;
+	align-content: center;
+}
+#search-input {
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#search-input input, #search-input2 input{
+    border: 0;
+    box-shadow: none;
+}
+
+#search-input button, #search-input2 button{
+    margin: 5px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+
+}
+
+#search-input button:hover, #search-input2 button:hover{
+    background-color:#FCDC39;
+}
+#search-input2{
+	float:right !important;
+	margin-left: 430pt;
+	border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+#map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#features, #features1, #features2, #features3{
+	border: none;
+}
+.card-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+.card-body{
+	padding-left: 0;
+}
+.card{
+	border: none;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+#subscribe {
+    margin: 20px auto;
+    width: 100%;
+}
+#email,
+#email:focus {
+    outline: none;
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#submit {
+    width: 20%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+

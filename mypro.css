@@ -108,6 +108,7 @@ a:active {
 }
 #footer {
 	background-color: grey;
+	min-width: 100%;
 }
 .center {
 	display: block;
@@ -124,9 +125,10 @@ a:active {
 	border:none;
 	background-image: url(image/quotation_marks.png);
 	background-repeat: no-repeat;
-	height: 80px;
+	height: 90px;
 	background-position: center;
-	background-size: cover
+	background-size: cover;
+	padding-left: 2%
 }
 #food_quote {
 	border-left: solid 10px #F8B703;
@@ -134,7 +136,6 @@ a:active {
 	border-top: none;
 	border-right: none;
 	border-radius: 0;
-/*	font-family: 'Cormorant Garamond', serif;*/
 	font-size: 1.2rem;
     font-weight: 500;
 	line-height: 200%;
@@ -142,6 +143,14 @@ a:active {
 @media only screen and (max-width: 600px) {
 	#food_quote {
 		font-size: 1rem;
+	}
+	#about_quote{
+		font-size: 1.2rem;
+		height: 40px;
+	}
+	#resume, #resume2{
+		margin-top: 40%;
+	   font-size: 0.8rem;
 	}
 }
 @media only screen and (min-width: 600px) {

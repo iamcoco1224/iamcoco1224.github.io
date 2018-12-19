@@ -1,0 +1,151 @@
+@charset "UTF-8";
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-family: 'Asap', sans-serif;
+	font-weight: 800;
+}
+h2 {
+	font-size: 1.6rem;
+}
+p1 {
+	line-height: 200%;
+}
+/* unvisited link */
+a:link {
+	color: black;
+}
+/* visited link */
+a:visited {
+	/*	color: dimgrey;*/
+	color: black;
+	text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+	color: dimgrey;
+}
+/* selected link */
+a:active {
+	color: dimgrey;
+	text-decoration: none;
+}
+.nav-link {
+	font-family: 'Cormorant Garamond', serif;
+}
+.nav-link:hover {
+	text-decoration: underline;
+}
+.nav-link:active {
+	text-decoration: underline;
+}
+#navbar_1 {
+	background-color: #FFFFFF;
+}
+.navbar-toggler {
+	border: none;
+}
+.feed-photo {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #FFFFFF;
+}
+.text {
+	color: dimgrey;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+}
+#d1:hover .overlay, #d2:hover .overlay, #d3:hover .overlay, #d4:hover .overlay, #d5:hover .overlay, #d6:hover .overlay, #d7:hover .overlay, #d8 :hover .overlay {
+	opacity: 0.9;
+}
+#a1:hover .overlay, #a2:hover .overlay, #a3:hover .overlay, #a4:hover .overlay, #a5:hover .overlay, #a6:hover .overlay, #a7:hover .overlay, #a8:hover .overlay, #a9:hover .overlay, #a10:hover .overlay, #a11:hover .overlay, #a12:hover .overlay, #a13:hover .overlay, #a14:hover .overlay, #a15:hover .overlay {
+	opacity: 0.9;
+}
+.card-title {
+	font-family: 'Asap', sans-serif;
+	font-weight: 500;
+	font-size: 1.6em;
+}
+.card-text {
+	font-family: 'Open Sans', sans-serif;
+}
+.iframe-container {
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
+}
+.iframe-container iframe {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+	padding-top: 75%;
+}
+#footer {
+	background-color: grey;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
+#about_quote {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.4rem;
+	border:none;
+	background-image: url(image/quotation_marks.png);
+	background-repeat: no-repeat;
+	height: 80px;
+	background-position: center;
+	background-size: cover
+}
+#food_quote {
+	border-left: solid 10px #F8B703;
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+	border-radius: 0;
+/*	font-family: 'Cormorant Garamond', serif;*/
+	font-size: 1.2rem;
+    font-weight: 500;
+	line-height: 200%;
+}
+@media only screen and (max-width: 600px) {
+	#food_quote {
+		font-size: 1rem;
+	}
+}
+@media only screen and (min-width: 600px) {
+	#food_quote {
+		font-size: 1rem;
+	}
+}

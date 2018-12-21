@@ -2,6 +2,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+h{
+	font-size: 1.3rem; 
+	width: 100%;
+	text-align: center;
+}
 h1 {
 	font-family: 'Asap', sans-serif;
 	font-weight: 800;
@@ -119,9 +124,13 @@ a:active {
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
 }
+#eat_previcon, #eat_nexticon{
+	position: absolute;
+	bottom: 0%
+}
 #about_quote {
 	font-family: 'Cormorant Garamond', serif;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	border:none;
 	background-image: url(image/quotation_marks.png);
 	background-repeat: no-repeat;
@@ -140,6 +149,17 @@ a:active {
     font-weight: 500;
 	line-height: 200%;
 }
+#headingOne{
+	background-color: white;
+}
+.btn {
+	background-color: white;
+}
+#eat_logo{
+	background-image:url("image/d_3/eatlogo2.jpg");
+	background-repeat:round;
+}
+
 @media only screen and (max-width: 600px) {
 	#food_quote {
 		font-size: 1rem;
@@ -157,4 +177,36 @@ a:active {
 	#food_quote {
 		font-size: 1rem;
 	}
+}
+
+.modal-full {
+
+    min-width: 100%;
+
+    margin: 0;
+
+}
+
+
+
+.modal-full .modal-content {
+
+/*    min-height: 100vh;*/
+	min-height: 100%;
+
+}
+img[src$="icon.svg"] {
+	width: 50px;
+	margin: 10px auto;
+	display: block;
+}
+small {
+	font-size: 0.3rem;
+	position: relative;
+	bottom: 20px;
+	left: 10px;
+	color: white;
+}
+#food_hero, #food_hero2, #food_hero3, #food_hero4, #food_hero5, #food_hero6, #food_hero7, #food_hero8{
+	width: 100%
 }

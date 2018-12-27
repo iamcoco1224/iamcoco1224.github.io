@@ -139,7 +139,7 @@ a:active {
 	position: absolute;
 	bottom: 0%
 }
-#about_quote {
+#about_quote, #about_quote2 {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.5rem;
 	border:none;

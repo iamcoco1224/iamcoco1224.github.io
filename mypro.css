@@ -139,7 +139,7 @@ a:active {
 	position: absolute;
 	bottom: 0%
 }
-#about_quote, #about_quote2 {
+#about_quote, #about_quote2, #about_quote3 {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.5rem;
 	border:none;
@@ -182,7 +182,7 @@ a:active {
 	#food_quote {
 		font-size: 1rem;
 	}
-	#about_quote{
+	#about_quote, #about_quote2, #about_quote3{
 		font-size: 1.2rem;
 		height: 40px;
 	}
@@ -228,16 +228,8 @@ small {
 	left: 10px;
 	color: white;
 }
-#food_hero, #food_hero2, #food_hero3, #food_hero4, #food_hero5, #food_hero6, #food_hero7, #food_hero8{
-	width: 100%;
-}
-#eat_mock1{
-	height: 100%;
-}
-#eat_mock2{
-	width: 100%;
-	height:100%;
-}
+
+
 #boba, #dump, #nood {
 	max-width: 180px;
 	width: 100%;

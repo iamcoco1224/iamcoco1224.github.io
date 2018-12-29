@@ -58,7 +58,7 @@ a:active {
 }
 #navbar_1 {
 	background-color: #FFFFFF;
-}
+}s
 .navbar-toggler {
 	border: none;
 }
@@ -233,6 +233,4 @@ small {
 #boba, #dump, #nood {
 	max-width: 180px;
 	width: 100%;
-
-	
 }

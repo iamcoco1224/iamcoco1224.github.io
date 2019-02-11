@@ -234,3 +234,13 @@ small {
 	max-width: 180px;
 	width: 100%;
 }
+#tip{
+	font-family: 'Permanent Marker', cursive;
+	color:#A30002;
+}
+#asian{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	color:#A30002;
+	font-weight: lighter;
+}

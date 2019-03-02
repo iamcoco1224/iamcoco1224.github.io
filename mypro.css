@@ -49,10 +49,16 @@ a:active {
 }
 .nav-link {
 	font-family: 'Cormorant Garamond', serif;
+	
 }
 .nav-link:hover {
-	text-decoration: underline;
+/*	text-decoration: underline;*/
+	
+	
 }
+
+
+
 .nav-link:active {
 	text-decoration: underline;
 }
@@ -199,6 +205,42 @@ a:active {
 	
 	
 }
+@media only screen and (min-width: 992px){
+	
+	#designer:hover{
+	background-image:url("image/blueberry.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 30px;
+}
+	#artist:hover{
+	background-image:url("image/lemon.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 30px;
+}
+	#entre:hover{
+	background-image:url("image/kiwi.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 30px;
+}
+	#about:hover{
+	background-image:url("image/tomato.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 30px;
+}
+	#contact:hover{
+	background-image:url("image/cucumber.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 30px;
+}
+	.nav-link {
+		padding-bottom: 55%;
+	}
+}
 
 .modal-full {
 
@@ -244,3 +286,6 @@ small {
 	color:#A30002;
 	font-weight: lighter;
 }
+
+
+

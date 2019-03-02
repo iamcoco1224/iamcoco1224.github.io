@@ -129,7 +129,7 @@ a:active {
 	padding-top: 75%;
 }
 #footer {
-	min-width: 100%;
+	background-color: white;
 }
 .center {
 	display: block;

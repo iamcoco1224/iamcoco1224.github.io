@@ -16,6 +16,13 @@ h2 {
 	font-size: 1.6rem;
 	font-family: 'Asap', sans-serif;
 }
+h3 {
+	font-size: 2rem;
+	font-family: 'Trade Gothic LT Std Bold Condensed No. 20';
+
+	color: #C62116;
+	
+}
 
 h4{
 	font-size: 1.4rem; 
@@ -25,6 +32,10 @@ h4{
 
 
 p1 {
+	line-height: 200%;
+	
+}
+p2 {
 	line-height: 200%;
 	
 }
@@ -193,7 +204,9 @@ a:active {
 		margin-top: 40%;
 	   font-size: 0.8rem;
 	}
-	
+	p2{
+		font-size: 0.9rem;
+	}
 }
 @media only screen and (min-width: 600px) {
 	#food_quote {
@@ -283,6 +296,11 @@ small {
 	color:#A30002;
 	font-weight: lighter;
 }
-
+@font-face {
+font-family: 'Trade Gothic LT Std Bold Condensed No. 20';
+font-style: normal;
+font-weight: normal;
+src: url("trade-gothic-lt-std-cufonfonts-webfont/trade-gothic-lt-std-bold-condensed-no-20-5872def1d27d8.woff")
+}
 
 

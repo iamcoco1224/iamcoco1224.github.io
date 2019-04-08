@@ -18,9 +18,9 @@ h2 {
 }
 h3 {
 	font-size: 2rem;
-	font-family: 'Trade Gothic LT Std Bold Condensed No. 20';
-
+	font-family: 'Trade Gothic LT Std Bold Condensed No. 20', 'Pathway Gothic One', "sans-serif";
 	color: #C62116;
+	font-weight: 800;
 	
 }
 

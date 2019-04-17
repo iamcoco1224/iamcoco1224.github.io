@@ -158,17 +158,7 @@ a:active {
 	position: absolute;
 	bottom: 0%
 }
-#about_quote, #about_quote2, #about_quote3 {
-	font-family: 'Cormorant Garamond', serif;
-	font-size: 1.5rem;
-	border:none;
-	background-image: url(image/quotation_marks.png);
-	background-repeat: no-repeat;
-	height: 90px;
-	background-position: center;
-	background-size: cover;
-	padding-left: 2%
-}
+
 #food_quote {
 	border-left: solid 10px #F8B703;
 	border-bottom: none;
@@ -212,6 +202,8 @@ a:active {
 	p2{
 		font-size: 0.9rem;
 	}
+	p4{
+		font-size: 0.9rem;}
 }
 @media only screen and (min-width: 600px) {
 	#food_quote {

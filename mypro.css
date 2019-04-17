@@ -39,6 +39,11 @@ p2 {
 	line-height: 200%;
 	
 }
+p4{
+	font-family: 'Asap', sans-serif;
+	color: #e5c693;
+	font-size: 1.2rem;
+}
 /* unvisited link */
 a:link {
 	color: black;

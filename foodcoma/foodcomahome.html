@@ -19,7 +19,7 @@
 <!-- body code goes here --> 
 <!--xl view nav bar-->
 <div class="d-none d-lg-block">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" id="large_nav"> <a class="navbar-brand" id="large_nav_brand" href="foodcomahome.html">Food Coma</a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FFFFFF"> <a class="navbar-brand" id="large_nav_brand" href="foodcomahome.html"><img src="image/foodnewlogo.png" width="40%" alt="" style="margin-left: 10%"></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item"> <a class="nav-link" href="#how">How it works</a></li>
@@ -38,10 +38,11 @@
 
 <!--small view nav bar	-->
 <div class="d-lg-none">
-  <nav class="navbar fixed-top navbar-ham bg-light" id="small_nav"><i class="material-icons" style="color: #D4772A">message</i> <a class="navbar-brand" id="logo-small" href="foodcomahome.html">Food Coma</a> 
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #FFFFFF">
+    <div class="row center"> <a href="foodcomahome.html"><img class="center" alt="" src="image/foodnewlogo.png" style="margin-top:0"></a></div>
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
-        aria-expanded="false" aria-label="Toggle navigation"><i class="material-icons" style="color: #D4772A">menu</i></button>
+        aria-expanded="false" aria-label="Toggle navigation"><i class="material-icons" >menu</i></button>
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent15"> 
       <!-- Links -->
@@ -65,17 +66,13 @@
     <!-- Collapsible content --> 
   </nav>
 </div>
-<!--<hr>-->
 
-<div class="row" style="padding: 80px;">
-  <h1><b>Where you feel at home!</b></h1>
+<div class="hero-image">
+  <div class="hero-text"> <a href="#" class="btn" data-toggle="modal" data-target="#myModal">Get Started</a> </div>
 </div>
 
-<!--logo img	-->
-<div align="center" style="position: relative; padding: 100px;"> <a href="#" data-toggle="modal" data-target="#myModal"> <img src="image/SVG/logo_bowl-01.svg" id="logowithword" alt=""></a> </div>
-
 <!--search bar	-->
-<div class="container" style="padding: 30px;">
+<div class="container" style="margin-top: 5%;">
   <div class="row">
     <div class="col-xl-12">
       <div class="input-group" id="adv-search">
@@ -83,7 +80,7 @@
         <div class="input-group-btn">
           <div class="btn-group" role="group">
             <div class="dropdown dropdown-lg">
-              <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="false" id="searchbutton"><span class="caret"></span></button>
               <div class="dropdown-menu dropdown-menu-right" role="menu">
                 <form class="form-horizontal" role="form">
                   <div class="form-group"> <b>servings </b>
@@ -265,7 +262,7 @@
     </div>
   </div>
 </section>
-<div class="row d-none d-lg-block" style="position: absolute; right: 20px;"> <a href="#top" class="fas fa-arrow-circle-up" style="font-size: 60px; color: #D4772A;"></a> </div>
+<div class="row d-none d-lg-block" style="text-align: center; margin-top: 3%;"> <a href="#top"><font color="grey"> back to top </font><i class="fas fa-caret-up" style="color: grey"></i></a></div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -284,7 +281,7 @@
 </div>
 
 <!-- Footer -->
-<footer class="page-footer d-none d-lg-block" style="color:dimgray; border-top: solid 3px #EECC5A;"> 
+<footer class="page-footer d-none d-lg-block" style="color:dimgray; border-top: solid 3px #EECC5A; padding-top:1%"> 
   
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left" style="color:dimgray"> 

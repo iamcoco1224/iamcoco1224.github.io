@@ -40,7 +40,7 @@ a:active {
 	border-top: solid 3px #EECC5A;
 }
 h1, h3, h6 {
-	font-family: 'Ubuntu';
+	font-family: 'blogger sans''Ubuntu';
 }
 h4 {
 	font-family: 'Ubuntu';
@@ -62,7 +62,8 @@ h6 {
 	top: 50px;
 }
 #sectionheader2 {
-	background-color: #EECC5A;
+	background-color: #ffffff;
+	border-bottom: 3px solid #f0c456;
 	padding: 10px;
 	margin: auto;
 }
@@ -389,14 +390,15 @@ p1 {
 	font-family: 'Ubuntu';
 	font-size: 1.5rem;
 }
-.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 {
+
+#navbarSupportedContent1 {
 	position: absolute;
 	right: 10%
 }
 .navbar-nav.mr-auto .nav-item .nav-link {
 	padding: 0px 20px;
 	font-family: 'Ubuntu';
-	background: #f8f9fa;
+/*	background: #f8f9fa;*/
 }
 .container-fluid .row .img-fluid {
 	opacity: 0.5;
@@ -409,11 +411,15 @@ p1 {
 	top: 16px;
 }
 #dropdownMenuLink {
-	background-color: #EECC5A;
+	background-color: #f3c757;
 	border-color: transparent;
 	font-family: 'Ubuntu';
 	position: relative;
 	left: 17px;
+	color: grey;
+}
+#dropdownMenuLink:hover{
+	color: white;
 }
 img[src$="icon.svg"] {
 	width: 50px;
@@ -473,6 +479,9 @@ span1 {
 }
 .navbar-toggler-icon {
 	background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=EECC5A');
+}
+.navbar-toggler {
+	border: none;
 }
 .navbar-ham .navbar-nav .nav-link {
 	color: rgba(0, 0, 0, 0.5);
@@ -649,8 +658,10 @@ input[type=radio] {
 	border: none;
 }
 #large_nav_brand {
+/*
 	background-image: url(../image/SVG/LOGO-01.svg);
 	background-repeat: no-repeat;
+*/
 	background-size: 40px auto;
 	background-position: 20%;
 }
@@ -812,3 +823,68 @@ input[type=radio] {
 	height: 100%;
 	max-height: 300;
 }
+
+#searchbutton {
+	width: 115%;
+	height: 105%;
+	background-color: white;
+	color: #f9ca55;
+}
+#searchbutton:hover {
+	background-color: #f9ca55;
+	color: grey;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* The hero image */
+.hero-image {
+ background: url("../image/food_hero.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 45vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+	
+
+
+.hero-image .btn {
+    /* Positioning and sizing */
+    display: inline-block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 0.4em;
+    margin-top: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid black;
+    border-radius: 20px;
+	background-color: white;
+	opacity: 0.6;
+}
+.hero-image .btn:hover {
+	background-color: #f0c456;
+}
+
+
+

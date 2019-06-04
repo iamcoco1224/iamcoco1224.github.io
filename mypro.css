@@ -65,8 +65,9 @@ a:active {
 }
 .nav-link {
 	font-family: 'Cormorant Garamond', serif;
-	
+
 }
+
 .nav-link:hover {
 /*	text-decoration: underline;*/
 	
@@ -80,10 +81,11 @@ a:active {
 }
 #navbar_1 {
 	background-color: #FFFFFF;
-}s
+}
 .navbar-toggler {
 	border: none;
 }
+
 .feed-photo {
 	display: block;
 	width: 100%;
@@ -113,7 +115,7 @@ a:active {
 	text-align: center;
 	font-family: 'Asap', sans-serif;
 }
-#d1:hover .overlay, #d2:hover .overlay, #d3:hover .overlay, #d4:hover .overlay, #d5:hover .overlay, #d6:hover .overlay, #d7:hover .overlay, #d8 :hover .overlay, #d9 :hover .overlay, #d10 :hover .overlay  {
+#d1:hover .overlay, #d2:hover .overlay, #d3:hover .overlay, #d4:hover .overlay, #d5:hover .overlay, #d6:hover .overlay, #d7:hover .overlay, #d8 :hover .overlay, #d9 :hover .overlay, #d10 :hover .overlay, #d11 :hover .overlay  {
 	opacity: 0.9;
 }
 #a1:hover .overlay, #a2:hover .overlay, #a3:hover .overlay, #a4:hover .overlay, #a5:hover .overlay, #a6:hover .overlay, #a7:hover .overlay, #a8:hover .overlay, #a9:hover .overlay, #a10:hover .overlay, #a11:hover .overlay, #a12:hover .overlay, #a13:hover .overlay, #a14:hover .overlay, #a15:hover .overlay {
@@ -210,7 +212,7 @@ a:active {
 		font-size: 1rem;
 	}
 	
-	
+
 }
 @media only screen and (min-width: 992px){
 	
@@ -247,6 +249,14 @@ a:active {
 	.nav-link {
 		padding-bottom: 55%;
 	}
+		.navbar{
+	position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+	.nav-item{
+	padding: 0 1% 20pt 20pt;
+}
 }
 
 .modal-full {
@@ -303,4 +313,37 @@ src: url("trade-gothic-lt-std-cufonfonts-webfont/trade-gothic-lt-std-bold-conden
 video {
 	 width: 100%;
   height: auto;
+}
+/*filter*/
+
+.column {
+/*  float: left;*/
+  display: none; /* Hide columns by default */
+}
+
+
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 6px 8px;
+  background-color: white;
+  cursor: pointer;
+	font-size: 0.8rem;
+	font-family: 'Asap', sans-serif;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #F6E3B7;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: white;
+   color: #eaaa12;
 }

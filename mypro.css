@@ -206,14 +206,20 @@ a:active {
 	}
 	p4{
 		font-size: 0.9rem;}
+	.navbar {
+	background-image: url("image/cocologo.jpg");
+	background-repeat: no-repeat;
+ background-size: 30%;
+  background-position: center; 
+	}
 }
+
 @media only screen and (min-width: 600px) {
 	#food_quote {
 		font-size: 1rem;
 	}
-	
-
 }
+
 @media only screen and (min-width: 992px){
 	
 	#designer:hover{
@@ -259,6 +265,14 @@ a:active {
 }
 }
 
+@media (min-width: 576px) and (max-width: 991.98px){
+.navbar {
+	background-image: url("image/cocologo.jpg");
+	background-repeat: no-repeat;
+ background-size: 30%;
+  background-position: center; 
+	}
+}
 .modal-full {
 
     min-width: 100%;

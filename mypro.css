@@ -79,9 +79,11 @@ a:active {
 .nav-link:active {
 	text-decoration: underline;
 }
+/*
 #navbar_1 {
 	background-color: #FFFFFF;
 }
+*/
 .navbar-toggler {
 	border: none;
 }
@@ -206,12 +208,14 @@ a:active {
 	}
 	p4{
 		font-size: 0.9rem;}
+/*
 	.navbar {
 	background-image: url("image/cocologo.jpg");
 	background-repeat: no-repeat;
  background-size: 30%;
   background-position: center; 
 	}
+*/
 }
 
 @media only screen and (min-width: 600px) {
@@ -222,6 +226,7 @@ a:active {
 
 @media only screen and (min-width: 992px){
 	
+/*
 	#designer:hover{
 	background-image:url("image/blueberry.png");
 	background-repeat: no-repeat;
@@ -255,23 +260,24 @@ a:active {
 	.nav-link {
 		padding-bottom: 55%;
 	}
-		.navbar{
-	position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
+*/
+		
+/*
 	.nav-item{
 	padding: 0 1% 20pt 20pt;
 }
+*/
 }
 
 @media (min-width: 576px) and (max-width: 991.98px){
+/*
 .navbar {
 	background-image: url("image/cocologo.jpg");
 	background-repeat: no-repeat;
  background-size: 30%;
   background-position: center; 
 	}
+*/
 }
 .modal-full {
 
@@ -360,4 +366,55 @@ video {
 .btn.active {
   background-color: white;
    color: #eaaa12;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	background-image:url("image/homeimage/home-hero.JPG");}
+
+.hero-image, .hero-image-small {
+	width: 100vw;
+    height: 100vh;
+  /* Set a specific height */
+
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+  /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+}
+.hero-image-small {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+	background-image:url("image/homeimage/home-hero-small.jpg");}
+/*
+
+.navbar{
+	position: absolute;
+    	top:5%;
+
+			left: 50%;
+
+    transform: translatex(-50%);
+}
+*/
+.navbar-nav{
+	position: absolute;
+	right: 1%;
+/*	transform: translatex(-95%);*/
+}
+#nav{
+	position: absolute;
+	top:2%;
+	left: 50%;
+    transform: translatex(-50%);
 }

@@ -371,7 +371,7 @@ video {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-	background-image:url("image/homeimage/home-hero.JPG");}
+	background-image:url("image/homeimage/home-hero.jpg");}
 
 .hero-image, .hero-image-small {
 	width: 100vw;

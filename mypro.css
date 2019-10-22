@@ -1,83 +1,72 @@
 @charset "UTF-8";
 body {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-h{
-	font-size: 1.3rem; 
-	width: 100%;
-	text-align: center;
-	font-family: 'Asap', sans-serif;
+h {
+    font-size: 1.3rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
 }
 h1 {
-	font-family: 'Asap', sans-serif;
-	font-weight: 800;
+    font-family: 'Asap', sans-serif;
+    font-weight: 800;
 }
 h2 {
-	font-size: 1.6rem;
-	font-family: 'Asap', sans-serif;
+    font-size: 1.6rem;
+    font-family: 'Asap', sans-serif;
 }
 h3 {
-	font-size: 2rem;
-	font-family: 'Trade Gothic LT Std Bold Condensed No. 20', 'Pathway Gothic One', "sans-serif";
-	color: #C62116;
-	font-weight: 800;
-	
+    font-size: 2rem;
+    font-family: 'Trade Gothic LT Std Bold Condensed No. 20', 'Pathway Gothic One', "sans-serif";
+    color: #C62116;
+    font-weight: 800;
 }
-
-h4{
-	font-size: 1.4rem; 
-	font-family: 'Asap', sans-serif;
-	font-weight: 800;
+h4 {
+    font-size: 1.4rem;
+    font-family: 'Asap', sans-serif;
+    font-weight: 800;
 }
-
-
 p1 {
-	line-height: 200%;
-	
+    line-height: 200%;
 }
 p2 {
-	line-height: 200%;
-	
+    line-height: 200%;
 }
-p4{
-	font-family: 'Asap', sans-serif;
-	color: #e5c693;
-	font-size: 1.2rem;
+p4 {
+    font-family: 'Asap', sans-serif;
+    color: #e5c693;
+    font-size: 1.2rem;
 }
 /* unvisited link */
 a:link {
-	color: black;
+    color: black;
 }
 /* visited link */
 a:visited {
-	/*	color: dimgrey;*/
-	color: black;
-	text-decoration: none;
+    /*	color: dimgrey;*/
+    color: black;
+    text-decoration: none;
 }
 /* mouse over link */
 a:hover {
-	color: dimgrey;
+    color: dimgrey;
 }
 /* selected link */
 a:active {
-	color: dimgrey;
-	text-decoration: none;
+    color: dimgrey;
+    text-decoration: none;
 }
 .nav-link {
-	font-family: 'Cormorant Garamond', serif;
-
+    font-family: 'Cormorant Garamond', serif;
 }
-
 .nav-link:hover {
 /*	text-decoration: underline;*/
 	
 	
 }
-
-
-
 .nav-link:active {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 /*
 #navbar_1 {
@@ -85,99 +74,96 @@ a:active {
 }
 */
 .navbar-toggler {
-	border: none;
+    border: none;
 }
-
 .feed-photo {
-	display: block;
-	width: 100%;
-	height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 .overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFFFFF;
 }
 .text {
-	color: dimgrey;
-	font-size: 20px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	text-align: center;
-	font-family: 'Asap', sans-serif;
+    color: dimgrey;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Asap', sans-serif;
 }
-#d1:hover .overlay, #d2:hover .overlay, #d3:hover .overlay, #d4:hover .overlay, #d5:hover .overlay, #d6:hover .overlay, #d7:hover .overlay, #d8 :hover .overlay, #d9 :hover .overlay, #d10 :hover .overlay, #d11 :hover .overlay, #d12 :hover .overlay, #d13 :hover .overlay, #d14 :hover .overlay, #d15 :hover .overlay, #d16 :hover .overlay  {
-	opacity: 0.9;
+#d1:hover .overlay, #d2:hover .overlay, #d3:hover .overlay, #d4:hover .overlay, #d5:hover .overlay, #d6:hover .overlay, #d7:hover .overlay, #d8 :hover .overlay, #d9 :hover .overlay, #d10 :hover .overlay, #d11 :hover .overlay, #d12 :hover .overlay, #d13 :hover .overlay, #d14 :hover .overlay, #d15 :hover .overlay, #d16 :hover .overlay {
+    opacity: 0.9;
 }
 #a1:hover .overlay, #a2:hover .overlay, #a3:hover .overlay, #a4:hover .overlay, #a5:hover .overlay, #a6:hover .overlay, #a7:hover .overlay, #a8:hover .overlay, #a9:hover .overlay, #a10:hover .overlay, #a11:hover .overlay, #a12:hover .overlay, #a13:hover .overlay, #a14:hover .overlay, #a15:hover .overlay {
-	opacity: 0.9;
+    opacity: 0.9;
 }
 .card-title {
-	font-family: 'Asap', sans-serif;
-	font-weight: 500;
-	font-size: 1.6em;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
 }
 .card-text {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .iframe-container {
-	overflow: hidden;
-	padding-top: 56.25%;
-	position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
 }
 .iframe-container iframe {
-	border: 0;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 /* 4x3 Aspect Ratio */
 .iframe-container-4x3 {
-	padding-top: 75%;
+    padding-top: 75%;
 }
-
 .center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
 }
-#eat_previcon, #eat_nexticon{
-	position: absolute;
-	bottom: 0%
+#eat_previcon, #eat_nexticon {
+    position: absolute;
+    bottom: 0%
 }
-
 #food_quote {
-	border-left: solid 10px #F8B703;
-	border-bottom: none;
-	border-top: none;
-	border-right: none;
-	border-radius: 0;
-	font-size: 1.2rem;
+    border-left: solid 10px #F8B703;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0;
+    font-size: 1.2rem;
     font-weight: 500;
-	line-height: 200%;
+    line-height: 200%;
 }
-#headingOne, #headingOne1, #headingOne3{
-	background-color: white;
+#headingOne, #headingOne1, #headingOne3 {
+    background-color: white;
 }
 .btn {
-	background-color: white;
+    background-color: white;
 }
 /*
 #eat_logo{
@@ -186,28 +172,29 @@ a:active {
 }
 */
 #eat_sitemap, #eat_logodesign {
-	width: 100%;
-	max-width: 1000px;
-	text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
 }
-@media (max-width: 575.98px)
-{
-	#food_quote {
-		font-size: 1rem;
-	}
-	#about_quote, #about_quote2, #about_quote3{
-		font-size: 1.2rem;
-		height: 40px;
-	}
-	#resume, #resume2{
-		margin-top: 40%;
-	   font-size: 0.8rem;
-	}
-	p2{
-		font-size: 0.9rem;
-	}
-	p4{
-		font-size: 0.9rem;}
+
+@media (max-width: 575.98px) {
+#food_quote {
+    font-size: 1rem;
+}
+#about_quote, #about_quote2, #about_quote3 {
+    font-size: 1.2rem;
+    height: 40px;
+}
+#resume, #resume2 {
+    margin-top: 40%;
+    font-size: 0.8rem;
+}
+p2 {
+    font-size: 0.9rem;
+}
+p4 {
+    font-size: 0.9rem;
+}
 /*
 	.navbar {
 	background-image: url("image/cocologo.jpg");
@@ -219,13 +206,12 @@ a:active {
 }
 
 @media only screen and (min-width: 600px) {
-	#food_quote {
-		font-size: 1rem;
-	}
+#food_quote {
+    font-size: 1rem;
+}
 }
 
-@media only screen and (min-width: 992px){
-	
+@media only screen and (min-width: 992px) {
 /*
 	#designer:hover{
 	background-image:url("image/blueberry.png");
@@ -269,7 +255,7 @@ a:active {
 */
 }
 
-@media (min-width: 576px) and (max-width: 991.98px){
+@media (min-width: 576px) and (max-width: 991.98px) {
 /*
 .navbar {
 	background-image: url("image/cocologo.jpg");
@@ -280,122 +266,106 @@ a:active {
 */
 }
 .modal-full {
-
     min-width: 100%;
-
     margin: 0;
-
 }
-
-
-
 .modal-full .modal-content {
-
-/*    min-height: 100vh;*/
-	min-height: 100%;
-
+    /*    min-height: 100vh;*/
+    min-height: 100%;
 }
 img[src$="icon.svg"] {
-	width: 50px;
-	margin: 10px auto;
-	display: block;
+    width: 50px;
+    margin: 10px auto;
+    display: block;
 }
 small {
-	font-size: 0.3rem;
-	position: relative;
-	bottom: 20px;
-	left: 10px;
-	color: white;
+    font-size: 0.3rem;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    color: white;
 }
-
-
 #boba, #dump, #nood {
-	max-width: 180px;
-	width: 100%;
+    max-width: 180px;
+    width: 100%;
 }
-#tip{
-	font-family: 'Permanent Marker', cursive;
-	color:#A30002;
+#tip {
+    font-family: 'Permanent Marker', cursive;
+    color: #A30002;
 }
-#asian{
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 2rem;
-	color:#A30002;
-	font-weight: lighter;
+#asian {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    color: #A30002;
+    font-weight: lighter;
 }
 @font-face {
-font-family: 'Trade Gothic LT Std Bold Condensed No. 20';
-font-style: normal;
-font-weight: normal;
-src: url("trade-gothic-lt-std-cufonfonts-webfont/trade-gothic-lt-std-bold-condensed-no-20-5872def1d27d8.woff")
+    font-family: 'Trade Gothic LT Std Bold Condensed No. 20';
+    font-style: normal;
+    font-weight: normal;
+    src: url("trade-gothic-lt-std-cufonfonts-webfont/trade-gothic-lt-std-bold-condensed-no-20-5872def1d27d8.woff")
 }
-
 video {
-	 width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 /*filter*/
 
 .column {
-/*  float: left;*/
-  display: none; /* Hide columns by default */
+    /*  float: left;*/
+    display: none; /* Hide columns by default */
 }
-
-
 .show {
-  display: block;
+    display: block;
 }
-
 /* Style the buttons */
 .btn {
-  border: none;
-  outline: none;
-  padding: 6px 8px;
-  background-color: white;
-  cursor: pointer;
-	font-size: 0.8rem;
-	font-family: 'Asap', sans-serif;
+    border: none;
+    outline: none;
+    padding: 6px 8px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: 'Asap', sans-serif;
 }
-
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #F6E3B7;
+    background-color: #F6E3B7;
 }
-
 /* Add a dark background color to the active button */
 .btn.active {
-  background-color: white;
-   color: #eaaa12;
+    background-color: white;
+    color: #eaaa12;
 }
-
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-	background-image:url("image/homeimage/home-hero.jpg");}
-
-.hero-image, .hero-image-small {
-	width: 100vw;
+    background-image: url("image/homeimage/home-hero.jpg");
+}
+.hero-image-small {
+    background-image: url("image/homeimage/home-hero-small.jpg");
+}
+.hero-image-about {
+    background-image: url("image/about-hero.jpg");
+}
+.hero-image-small-about {
+    background-image: url("image/about-hero-small.jpg");
+}
+.hero-image, .hero-image-small, .hero-image-about, .hero-image-small-about {
+    width: 100vw;
     height: 100vh;
-  /* Set a specific height */
-
-
   /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-	
-  /* Flexbox stuff */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-    
     /* Text styles */
     text-align: center;
 }
-.hero-image-small {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-	background-image:url("image/homeimage/home-hero-small.jpg");}
+
 /*
 
 .navbar{
@@ -407,14 +377,14 @@ video {
     transform: translatex(-50%);
 }
 */
-.navbar-nav{
-	position: absolute;
-	right: 1%;
-/*	transform: translatex(-95%);*/
+.navbar-nav {
+    position: absolute;
+    right: 1%;/*	transform: translatex(-95%);*/
 }
-#nav{
-	position: absolute;
-	top:2%;
-	left: 50%;
+#nav {
+    position: absolute;
+    top: 2%;
+    left: 50%;
     transform: translatex(-50%);
+	z-index: 101;
 }

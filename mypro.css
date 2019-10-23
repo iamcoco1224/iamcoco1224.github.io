@@ -350,7 +350,13 @@ video {
 .hero-image-small-about {
     background-image: url("image/about-hero-small.jpg");
 }
-.hero-image, .hero-image-small, .hero-image-about, .hero-image-small-about {
+.hero-image-art {
+    background-image: url("image/artist-hero.jpg");
+}
+.hero-image-small-art {
+    background-image: url("image/artist-hero.jpg");
+}
+.hero-image, .hero-image-small, .hero-image-about, .hero-image-small-about, .hero-image-art, .hero-image-small-art {
     width: 100vw;
     height: 100vh;
   /* Position and center the image to scale nicely on all screens */
@@ -364,6 +370,15 @@ video {
     align-items: center;
     /* Text styles */
     text-align: center;
+}
+
+.hero-text-art {
+	position: absolute !important;
+	right: 10% !important;
+}
+.hero-text-art2 {
+	position: absolute;
+	top: 10%;
 }
 
 /*

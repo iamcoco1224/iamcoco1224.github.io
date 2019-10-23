@@ -357,7 +357,6 @@ video {
     background-image: url("image/artist-hero.jpg");
 }
 .hero-image, .hero-image-small, .hero-image-about, .hero-image-small-about, .hero-image-art, .hero-image-small-art {
-    width: 100vw;
     height: 100vh;
   /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -372,29 +371,33 @@ video {
     text-align: center;
 }
 
+.hero-text-h, .about-hero-text-p, .hero-text-art-p{
+	animation-name: fadeIn;
+	animation-duration: 1.8s;
+}
+.hero-text-p, .about-hero-text-h, .hero-text-art-h{
+	animation-name: moveInBottom;
+	animation-duration: 1.5s;
+	animation-delay: 0.8s;
+	animation-fill-mode: forwards;
+opacity: 0;
+}
+
 .hero-text-art {
-	position: absolute !important;
-	right: 10% !important;
+	position: absolute;
+	right: 10%;
+	text-align: center;
 }
 .hero-text-art2 {
 	position: absolute;
 	top: 10%;
+	text-align: center;
 }
 
-/*
 
-.navbar{
-	position: absolute;
-    	top:5%;
-
-			left: 50%;
-
-    transform: translatex(-50%);
-}
-*/
 .navbar-nav {
     position: absolute;
-    right: 1%;/*	transform: translatex(-95%);*/
+    right: 1%;
 }
 #nav {
     position: absolute;
@@ -402,4 +405,31 @@ video {
     left: 50%;
     transform: translatex(-50%);
 	z-index: 101;
+}
+@keyframes fadeIn {
+	0%{
+		opacity: 0;
+		
+	}
+	50%{
+		opacity: 0.7;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes moveInBottom{
+	0%{
+		opacity: 0;
+		transform: translateY(25px);		
+	}
+	50%{
+		opacity: 0.7;
+		
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
 }

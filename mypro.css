@@ -105,7 +105,7 @@ a:active {
     text-align: center;
     font-family: 'Asap', sans-serif;
 }
-#d1:hover .overlay, #d2:hover .overlay, #d3:hover .overlay, #d4:hover .overlay, #d5:hover .overlay, #d6:hover .overlay, #d7:hover .overlay, #d8 :hover .overlay, #d9 :hover .overlay, #d10 :hover .overlay, #d11 :hover .overlay, #d12 :hover .overlay, #d13 :hover .overlay, #d14 :hover .overlay, #d15 :hover .overlay, #d16 :hover .overlay {
+#d1:hover .overlay, #d2:hover .overlay, #d3:hover .overlay, #d4:hover .overlay, #d5:hover .overlay, #d6:hover .overlay, #d7:hover .overlay, #d8 :hover .overlay, #d9 :hover .overlay, #d10 :hover .overlay, #d11 :hover .overlay, #d12 :hover .overlay, #d13 :hover .overlay, #d14 :hover .overlay, #d15 :hover .overlay, #d16 :hover .overlay , #d17 :hover .overlay, #d18 :hover .overlay, #d19 :hover .overlay   {
     opacity: 0.9;
 }
 #a1:hover .overlay, #a2:hover .overlay, #a3:hover .overlay, #a4:hover .overlay, #a5:hover .overlay, #a6:hover .overlay, #a7:hover .overlay, #a8:hover .overlay, #a9:hover .overlay, #a10:hover .overlay, #a11:hover .overlay, #a12:hover .overlay, #a13:hover .overlay, #a14:hover .overlay, #a15:hover .overlay {

@@ -68,11 +68,7 @@ a:active {
 .nav-link:active {
     text-decoration: underline;
 }
-/*
-#navbar_1 {
-	background-color: #FFFFFF;
-}
-*/
+
 .navbar-toggler {
     border: none;
 }
@@ -195,14 +191,7 @@ p2 {
 p4 {
     font-size: 0.9rem;
 }
-/*
-	.navbar {
-	background-image: url("image/cocologo.jpg");
-	background-repeat: no-repeat;
- background-size: 30%;
-  background-position: center; 
-	}
-*/
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -256,14 +245,7 @@ p4 {
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
-/*
-.navbar {
-	background-image: url("image/cocologo.jpg");
-	background-repeat: no-repeat;
- background-size: 30%;
-  background-position: center; 
-	}
-*/
+
 }
 .modal-full {
     min-width: 100%;
@@ -395,8 +377,15 @@ opacity: 0;
 }
 
 
-.navbar-nav {
+
+#bottom-nav {
     position: absolute;
+    left: 50%;
+	transform: translatex(-50%);
+}
+
+#top-nav {
+	 position: absolute;
     right: 1%;
 }
 #nav {
@@ -433,3 +422,4 @@ opacity: 0;
 		transform: translateY(0);
 	}
 }
+

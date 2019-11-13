@@ -378,12 +378,6 @@ opacity: 0;
 
 
 
-#bottom-nav {
-    position: absolute;
-    left: 50%;
-	transform: translatex(-50%);
-}
-
 #top-nav {
 	 position: absolute;
     right: 1%;
